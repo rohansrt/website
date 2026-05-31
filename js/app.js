@@ -36,8 +36,8 @@
             var pages = [];
             for (var p = 1; p <= pdf.numPages; p++) pages.push(renderPage(p));
             Promise.all(pages);
-          }).catch(function(e) {
-            document.getElementById('pdf-loading').innerHTML = 'Could not render PDF. <a href="assets/Rohan_CV_v4.pdf" download style="color:var(--navy)">Download instead ↓</a>';
+            }).catch(function(e) {
+            document.getElementById('pdf-loading').innerHTML = 'Could not render PDF. <a href="assets/pdf/Rohan_CV_v4.pdf" download style="color:var(--navy)">Download instead ↓</a>';
           });
         };
         document.head.appendChild(script);
