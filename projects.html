@@ -88,7 +88,7 @@
             <span class="eg-strip-label">TRUST</span>
           </div>
           <div class="eg-strip-sep"></div>
-          <div class="eg-strip-item eg-strip-details" onclick="document.getElementById('eg-modal').style.display='flex'">
+          <div class="eg-strip-item eg-strip-details">
             <span class="eg-strip-plus">+</span>
             <span class="eg-strip-label"><strong>DETAILS</strong></span>
             <svg class="eg-strip-icon-details" viewBox="0 0 24 24" width="10" height="10" fill="none" stroke="#0F2454" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -119,13 +119,248 @@
   </div>
 </div>
 
-<!-- ExperGo Modal (placeholder) -->
-<div id="eg-modal" style="display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,0.45);align-items:center;justify-content:center;" onclick="if(event.target===this)this.style.display='none'">
-  <div style="width:1200px;max-width:95vw;height:800px;max-height:92vh;background:#FBFAF8;border-radius:24px;display:flex;align-items:center;justify-content:center;position:relative;">
-    <button onclick="document.getElementById('eg-modal').style.display='none'" style="position:absolute;top:24px;right:28px;background:none;border:none;font-size:24px;cursor:pointer;color:#0F2454;font-family:'DM Mono',monospace;">✕</button>
-    <p style="font-family:'DM Mono',monospace;font-size:18px;color:#0F2454;letter-spacing:0.08em;">ExperGo details coming soon</p>
-  </div>
-</div>
+<!-- ExperGo Modal -->
+<div id="eg-modal" class="egm-overlay" role="dialog" aria-modal="true" aria-label="ExperGo project details">
+  <div class="egm-modal">
+
+    <!-- Close button (absolute top-right) -->
+    <button class="egm-close-btn" aria-label="Close modal">✕</button>
+
+    <!-- ── HEADER ── -->
+    <div class="egm-header">
+      <div class="egm-header-left">
+        <button class="egm-back-btn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+          Back
+        </button>
+        <h1 class="egm-title">ExperGo</h1>
+        <div class="egm-underline"></div>
+        <p class="egm-tagline">Hard-earned wisdom shouldn't retire<br>with its owner.</p>
+        <p class="egm-category">AI MATCHING WITH YOUTH</p>
+      </div>
+      <div class="egm-header-right">
+        <a href="https://rsaraswat.wixsite.com/expergo" target="_blank" rel="noopener" class="egm-mvp-btn-header">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          VIEW MVP
+        </a>
+        <img src="assets/images/projects/expergo/expergo-hero.png" alt="ExperGo illustration" class="egm-hero-img">
+      </div>
+    </div>
+
+    <!-- ── ROW 1: 4 columns ── -->
+    <div class="egm-row egm-row1">
+
+      <!-- Customer Need -->
+      <div class="egm-col">
+        <div class="egm-col-hdr">
+          <img src="assets/icons/projects/customer-need.svg" alt="" class="egm-col-icon">
+          <span class="egm-col-title">CUSTOMER NEED</span>
+        </div>
+        <p class="egm-body-text">Thousands of experienced professionals retire every year with decades of knowledge. Meanwhile students and young professionals struggle to access credible mentorship and career guidance.</p>
+      </div>
+
+      <!-- Target Users -->
+      <div class="egm-col">
+        <div class="egm-col-hdr">
+          <img src="assets/icons/projects/target-users.svg" alt="" class="egm-col-icon">
+          <span class="egm-col-title">TARGET USERS</span>
+        </div>
+        <div class="egm-group">
+          <p class="egm-group-title">Retired Experts</p>
+          <ul class="egm-list">
+            <li>Former CXOs</li>
+            <li>Industry veterans</li>
+            <li>Functional heads</li>
+          </ul>
+        </div>
+        <div class="egm-group">
+          <p class="egm-group-title">Young Talent</p>
+          <ul class="egm-list">
+            <li>Students</li>
+            <li>Early professionals</li>
+            <li>Career switchers</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Value Proposition -->
+      <div class="egm-col">
+        <div class="egm-col-hdr">
+          <img src="assets/icons/projects/value-proposition.svg" alt="" class="egm-col-icon">
+          <span class="egm-col-title">VALUE PROPOSITION</span>
+        </div>
+        <div class="egm-group">
+          <p class="egm-group-title">For Experts</p>
+          <ul class="egm-list">
+            <li>Stay engaged</li>
+            <li>Monetise expertise</li>
+            <li>Create impact</li>
+          </ul>
+        </div>
+        <div class="egm-group">
+          <p class="egm-group-title">For Talent</p>
+          <ul class="egm-list">
+            <li>Discover mentors</li>
+            <li>Get relevant guidance</li>
+            <li>Accelerate growth</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- How It Works -->
+      <div class="egm-col egm-col--no-border">
+        <div class="egm-col-hdr">
+          <img src="assets/icons/projects/how-it-works.svg" alt="" class="egm-col-icon">
+          <span class="egm-col-title">HOW IT WORKS</span>
+        </div>
+        <div class="egm-flow">
+          <div class="egm-flow-step">
+            <img src="assets/icons/projects/expert-profile.svg" alt="" class="egm-flow-icon">
+            <span class="egm-flow-label">Expert Profile</span>
+          </div>
+          <div class="egm-flow-arrow">↓</div>
+          <div class="egm-flow-step">
+            <img src="assets/icons/projects/matching-engine.svg" alt="" class="egm-flow-icon">
+            <span class="egm-flow-label">AI Matching Engine</span>
+          </div>
+          <div class="egm-flow-arrow">↓</div>
+          <div class="egm-flow-step">
+            <img src="assets/icons/projects/mentor-discovery.svg" alt="" class="egm-flow-icon">
+            <span class="egm-flow-label">Mentor Discovery</span>
+          </div>
+          <div class="egm-flow-arrow">↓</div>
+          <div class="egm-flow-step">
+            <img src="assets/icons/projects/session-booking.svg" alt="" class="egm-flow-icon">
+            <span class="egm-flow-label">Session Booking</span>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /egm-row1 -->
+
+    <!-- ── ROW 2: MVP Features ── -->
+    <div class="egm-row egm-row2">
+      <div class="egm-row2-inner">
+        <div class="egm-col-hdr">
+          <img src="assets/icons/projects/mvp-features.svg" alt="" class="egm-col-icon">
+          <span class="egm-col-title">MVP FEATURES</span>
+        </div>
+        <div class="egm-pills">
+          <span class="egm-pill">Expert Profiles</span>
+          <span class="egm-pill">AI Matching</span>
+          <span class="egm-pill">Session Booking</span>
+          <span class="egm-pill">Mentorship Tracks</span>
+          <span class="egm-pill">Ratings &amp; Reviews</span>
+          <span class="egm-pill">Trust Layer</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── ROW 3: 4 columns ── -->
+    <div class="egm-row egm-row3">
+
+      <!-- Key Stakeholders -->
+      <div class="egm-col">
+        <div class="egm-col-hdr">
+          <img src="assets/icons/projects/key-stakeholders.svg" alt="" class="egm-col-icon">
+          <span class="egm-col-title">KEY STAKEHOLDERS</span>
+        </div>
+        <ul class="egm-list">
+          <li>Experts</li>
+          <li>Talent</li>
+          <li>Institutions</li>
+          <li>Platform</li>
+        </ul>
+      </div>
+
+      <!-- My Role -->
+      <div class="egm-col">
+        <div class="egm-col-hdr">
+          <img src="assets/icons/projects/my-role.svg" alt="" class="egm-col-icon">
+          <span class="egm-col-title">MY ROLE</span>
+        </div>
+        <ul class="egm-list">
+          <li>Co-Founder</li>
+          <li>Product strategy &amp; validation</li>
+          <li>MVP design</li>
+          <li>AI matching architecture</li>
+          <li>GTM exploration</li>
+        </ul>
+      </div>
+
+      <!-- Market Opportunity -->
+      <div class="egm-col">
+        <div class="egm-col-hdr">
+          <img src="assets/icons/projects/market-opportunity.svg" alt="" class="egm-col-icon">
+          <span class="egm-col-title">MARKET OPPORTUNITY</span>
+        </div>
+        <p class="egm-body-text">Global mentoring market is projected to reach $36B+ by 2030. Large, growing and under-digitised.</p>
+        <div class="egm-chart-wrap">
+          <svg class="egm-chart" viewBox="0 0 110 56" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M4 52 C20 46, 40 38, 58 28 S88 12, 106 4" stroke="#173F7A" stroke-width="2" stroke-linecap="round" fill="none"/>
+            <path d="M4 52 C20 46, 40 38, 58 28 S88 12, 106 4 L106 56 L4 56 Z" fill="rgba(23,63,122,0.07)"/>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Founder Note -->
+      <div class="egm-col egm-col--no-border egm-col--founder">
+        <div class="egm-col-hdr">
+          <img src="assets/icons/projects/founder-note.svg" alt="" class="egm-col-icon">
+          <span class="egm-col-title">FOUNDER NOTE</span>
+        </div>
+        <blockquote class="egm-quote">"The hardest challenge wasn't matching people. It was building trust before the first conversation."</blockquote>
+      </div>
+
+    </div><!-- /egm-row3 -->
+
+  </div><!-- /egm-modal -->
+</div><!-- /egm-overlay -->
+
+<script>
+(function() {
+  var overlay = document.getElementById('eg-modal');
+  var scrollY = 0;
+
+  function openEgModal() {
+    scrollY = window.scrollY;
+    overlay.classList.add('open');
+    document.body.style.position = 'fixed';
+    document.body.style.top = '-' + scrollY + 'px';
+    document.body.style.width = '100%';
+    document.body.style.overflowY = 'scroll';
+  }
+
+  function closeEgModal() {
+    overlay.classList.remove('open');
+    document.body.style.position = '';
+    document.body.style.top = '';
+    document.body.style.width = '';
+    document.body.style.overflowY = '';
+    window.scrollTo(0, scrollY);
+  }
+
+  // Wire Details button
+  var detailsBtn = document.querySelector('.eg-strip-details');
+  if (detailsBtn) {
+    detailsBtn.onclick = function(e) { e.stopPropagation(); openEgModal(); };
+  }
+
+  // Wire Close + Back buttons
+  overlay.querySelector('.egm-close-btn').onclick = closeEgModal;
+  overlay.querySelector('.egm-back-btn').onclick = closeEgModal;
+
+  // Overlay click
+  overlay.addEventListener('click', function(e) {
+    if (e.target === overlay) closeEgModal();
+  });
+
+  // ESC key
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && overlay.classList.contains('open')) closeEgModal();
+  });
+})();
+</script>
 
 <footer>
   <span class="footer-text">© 2026 Rohan Saraswat · rohansrt.cc</span>
