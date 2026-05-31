@@ -873,6 +873,31 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;background:rgba(245,243,239,
 .blog-footer{display:flex;justify-content:space-between;align-items:center}
 .blog-read{font-family:'DM Mono',monospace;font-size:9px;color:var(--dim);letter-spacing:.08em}
 .blog-status{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.1em;padding:3px 7px;border-radius:2px;background:rgba(82,82,91,.1);color:var(--dim)}
+.blog-card--live:hover{box-shadow:0 4px 24px rgba(44,74,110,.15);border-color:rgba(44,74,110,.25)}
+.blog-card--placeholder{border:2px dashed #b0bbcc;background:#f7f8fa;display:flex;align-items:center;justify-content:center;cursor:default;min-height:180px}
+.blog-card--placeholder:hover{box-shadow:none}
+.blog-ph-inner{display:flex;flex-direction:column;align-items:center;gap:8px;padding:16px}
+.blog-ph-name{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:400;color:#0F2454;opacity:.5;text-align:center;line-height:1.25}
+.blog-ph-label{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.18em;color:#0F2454;text-transform:uppercase;opacity:.3}
+.blog-card-thumb{width:calc(100% + 48px);margin:-24px -24px 16px;height:140px;object-fit:cover;border-radius:8px 8px 0 0}
+.blog-status-live{font-family:'DM Mono',monospace;font-size:11px;font-weight:500;letter-spacing:.1em;padding:4px 10px;border-radius:2px;background:rgba(44,74,110,.1);color:var(--navy)}
+
+/* ── BLOG OVERLAY ──────────────────────────────────────────────────────────── */
+.blg-overlay{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.5);z-index:1000;display:none;align-items:flex-start;justify-content:center;padding:40px 24px;overflow-y:auto}
+.blg-overlay.open{display:flex}
+.blg-modal{background:var(--bg);border-radius:12px;width:100%;max-width:720px;padding:52px 56px 64px;position:relative;margin:auto}
+.blg-modal::-webkit-scrollbar{width:4px}
+.blg-modal::-webkit-scrollbar-thumb{background:rgba(15,36,84,.18);border-radius:2px}
+.blg-close-btn{position:absolute;top:20px;right:20px;width:32px;height:32px;border-radius:50%;border:1px solid var(--border2);background:none;cursor:pointer;font-size:14px;color:var(--muted);display:flex;align-items:center;justify-content:center;opacity:.6;transition:opacity .2s}
+.blg-close-btn:hover{opacity:1}
+.blg-header{margin-bottom:28px}
+.blg-header-meta{display:flex;align-items:center;gap:10px;margin-bottom:16px}
+.blg-read-time{font-family:'DM Mono',monospace;font-size:9px;color:var(--dim);letter-spacing:.08em}
+.blg-title{font-family:'Cormorant Garamond',serif;font-size:36px;font-weight:400;line-height:1.2;color:var(--text);margin-bottom:0}
+.blg-hero-img{width:100%;border-radius:6px;margin:28px 0 36px;object-fit:cover;max-height:340px}
+.blg-body{font-family:'Outfit',sans-serif;font-size:15px;color:var(--muted);line-height:1.85}
+.blg-body p{margin-bottom:22px}
+.blg-body p:last-child{margin-bottom:0}
 
 /* ── CONTACT ────────────────────────────────────────────────────────────────── */
 .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start}
@@ -931,6 +956,9 @@ footer{padding:24px 56px;border-top:1px solid var(--border);background:var(--sur
 }
 @media(max-width:680px){
   .proj-tab{font-size:10px;padding:0 20px 12px 0}
+  .blg-overlay{padding:0;align-items:flex-end}
+  .blg-modal{border-radius:12px 12px 0 0;padding:36px 24px 48px;max-height:90vh;overflow-y:auto}
+  .blg-title{font-size:26px}
 }
 
 /* ── Inline-style helper classes ───────────────────────────────────────────────────── */
