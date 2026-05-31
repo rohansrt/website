@@ -14,19 +14,19 @@
 
 <nav>
   <div class="nav-top">
-    <a class="nav-logo" href="javascript:void(0)" onclick="showPage('home')">
+    <a class="nav-logo" href="index.html">
       <img src="assets/images/nav-logo.png" alt="IR"/>
       <span class="nav-logo-text">Rohan Saraswat</span>
     </a>
-    <button class="nav-cta" onclick="showPage('contact')">Connect/Collaborate ↗</button>
+    <a class="nav-cta" href="contact.html">Connect/Collaborate ↗</a>
   </div>
   <div class="nav-tabs">
-    <button class="nav-tab active" data-page="home">Home</button>
-    <button class="nav-tab" data-page="about">About Me</button>
-    <button class="nav-tab" data-page="projects">Projects</button>
-    <button class="nav-tab" data-page="blog">Blog</button>
-    <button class="nav-tab" data-page="contact">Contact</button>
-    <button class="nav-tab" data-page="resume">Resume</button>
+    <a class="nav-tab active" data-page="home" href="index.html">Home</a>
+    <a class="nav-tab" data-page="about" href="about.html">About Me</a>
+    <a class="nav-tab" data-page="projects" href="projects.html">Projects</a>
+    <a class="nav-tab" data-page="blog" href="blog.html">Blog</a>
+    <a class="nav-tab" data-page="contact" href="contact.html">Contact</a>
+    <a class="nav-tab" data-page="resume" href="resume.html">Resume</a>
   </div>
 </nav>
 
@@ -39,8 +39,8 @@
         <h1 class="hero-name">Rohan<br/><em>Saraswat</em></h1>
         <p class="hero-tagline"><strong>An Ambitious Builder, Operator, and Problem Solver.</strong> Driven by Impact. Turning ambiguious data and insights into meaningful customer centric products. Built AI features, enterprise platforms, and ventures from scratch. Looking for the next big stop.</p>
         <div class="hero-ctas">
-          <button class="btn btn-navy" onclick="showPage('projects')">View My Work</button>
-          <button class="btn btn-outline" onclick="showPage('contact')">Let's Talk</button>
+          <a class="btn btn-navy" href="projects.html">View My Work</a>
+          <a class="btn btn-outline" href="index.html#page-contact">Let's Talk</a>
         </div>
       </div>
       <div class="hero-right">
@@ -94,19 +94,19 @@
       <p class="eyebrow">Pinned Work</p>
       <h2 class="section-title">Star <em>Projects</em></h2>
       <div class="pinned-grid">
-        <div class="pinned-card" onclick="showPage('projects')">
+        <div class="pinned-card" onclick="window.location.href='projects.html'">
           <div class="pinned-stage stage-live">Live</div>
           <div class="pinned-name">ExperGo</div>
           <div class="pinned-tagline">AI-led expertise platform connecting retired professionals with emerging talent</div>
           <div class="pinned-arrow">View project →</div>
         </div>
-        <div class="pinned-card" onclick="showPage('projects')">
+        <div class="pinned-card" onclick="window.location.href='projects.html'">
           <div class="pinned-stage stage-shipped">Shipped</div>
           <div class="pinned-name">JLR Climate Platform</div>
           <div class="pinned-tagline">Next-gen climate architecture for 2L+ units across 100+ global markets</div>
           <div class="pinned-arrow">View project →</div>
         </div>
-        <div class="pinned-card" onclick="showPage('projects')">
+        <div class="pinned-card" onclick="window.location.href='projects.html'">
           <div class="pinned-stage stage-shipped">Shipped</div>
           <div class="pinned-name">PayPal GenAI Suite</div>
           <div class="pinned-tagline">GenAI-powered POS aggregation, smart analytics and payout automation</div>
@@ -114,389 +114,9 @@
         </div>
       </div>
       <div class="text-right mt-20">
-        <button class="btn btn-outline" onclick="showPage('projects')">View all projects →</button>
+        <a class="btn btn-outline" href="projects.html">View all projects →</a>
       </div>
     </div>
-  </div>
-</div>
-
-<!-- ═══════════════ ABOUT ═══════════════ -->
-<div class="page" id="page-about">
-  <div class="wrap">
-    <div class="section">
-      <p class="eyebrow">01 · Personal</p>
-      <h2 class="section-title">Who I <em>am</em></h2>
-      <div class="about-hero">
-        <div class="about-photo-circle"><img src="assets/images/about-photo.jpg" alt="Rohan Saraswat"/></div>
-        <div class="flex-1">
-          <div class="about-body">
-            <p>My name is Rohan — a customer-centric, systems-oriented operator who has built teams, shipped platforms, designed AI products, and built early-stage ventures from scratch.</p>
-            <p>My life runs in <em>4-year leaps</em>. Four years preparing for competitive exams. Four years at <strong>IIT Roorkee</strong> (GPA 8.4) building the engineering foundation. Four years at <strong>Jaguar Land Rover</strong> — as a seed member of India's Climate team, shipping the 2024 platform for 2L+ units across 100+ markets. Now at <strong>ISB</strong>, sharpening the business lens.</p>
-            <p>I bridge technology and business to build scalable solutions in ambiguity-heavy environments. That's what drives me — the messy, high-stakes problems where most operators pause.</p>
-            <p>Currently building <strong>ExperGo</strong> — an AI-led expertise platform linking retired professionals with emerging talent. National winner, Tata Imagination Challenge 2026 (Top 10 of 4 lakh+ teams).</p>
-          </div>
-          <div class="about-quote">"I seek the meaning of true freedom at individual and social levels. The hope to reach it keeps pushing me."</div>
-          <div class="mt-16">
-            <div class="inspo-label">Inspired by</div>
-            <div class="inspo-tags">
-              <span class="inspo-tag">One Piece</span>
-              <span class="inspo-tag">Hitchhiker's Guide to the Galaxy</span>
-              <span class="inspo-tag">Maslow's Pyramid</span>
-              <span class="inspo-tag">Elon Musk</span>
-            </div>
-          </div>
-        </div>
-        <div class="min-w-200">
-          <div class="seeking-box">
-            <div class="meta-label meta-label--spaced">Currently seeking</div>
-            <div class="seeking-row"><span>—</span> EIR / Entrepreneur in Residence</div>
-            <div class="seeking-row"><span>—</span> CEO's Office / Founder's Office</div>
-            <div class="seeking-row"><span>—</span> 0 to 1 Product Management</div>
-            <div class="section-divider">
-              <button class="btn btn-navy btn-full" onclick="showPage('contact')">Get in Touch</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="section">
-      <p class="eyebrow">02 · Professional Journey</p>
-      <h2 class="section-title">Career <em>Timeline</em></h2>
-      <div class="timeline-grid">
-        <div class="tl-wrap">
-          <div class="tl-item">
-            <div class="tl-dot"></div>
-            <div class="tl-date">Apr 2025 – Present</div>
-            <div class="tl-role">MBA</div>
-            <div class="tl-org">Indian School of Business</div>
-            <div class="tl-impact">GPA 3.6/4.0 · National Winner — Tata Imagination Challenge &amp; ReLead by ReNew · GMAT 740/800</div>
-          </div>
-          <div class="tl-item">
-            <div class="tl-dot"></div>
-            <div class="tl-date">Jul 2025 – Jan 2026</div>
-            <div class="tl-role">Product Management Intern</div>
-            <div class="tl-org">PayPal · ISB Experiential Learning</div>
-            <div class="tl-impact">Designed GenAI product roadmap — Hyperlocal POS aggregator, smart analytics, payout automation. Targeting +10% ARPU.</div>
-          </div>
-          <div class="tl-item">
-            <div class="tl-dot"></div>
-            <div class="tl-date">Sep 2020 – Oct 2024</div>
-            <div class="tl-role">Systems Engineer — Project Manager</div>
-            <div class="tl-org">Jaguar Land Rover, India</div>
-            <div class="tl-impact">Seed member, India Climate team 0→1. Led 2024 platform for 2L+ units. Sourced GBP 400M+ Denso system (800k EVs). Saved £900K via analytics.</div>
-          </div>
-          <div class="tl-item">
-            <div class="tl-dot"></div>
-            <div class="tl-date">Mar 2022 – Oct 2022</div>
-            <div class="tl-role">International Project Lead</div>
-            <div class="tl-org">Jaguar Land Rover, UK — Gaydon</div>
-            <div class="tl-impact">0→1 sustainable EV cabin POC. 50+ customer interviews. 60% R&D cost reduction via IISc partnership. 25% time-to-comfort improvement.</div>
-          </div>
-          <div class="tl-item">
-            <div class="tl-dot dim"></div>
-            <div class="tl-date dim">Jul 2016 – Jun 2020</div>
-            <div class="tl-role">B.Tech, Mechanical Engineering</div>
-            <div class="tl-org">IIT Roorkee</div>
-            <div class="tl-impact">GPA 8.4/10 · JEE Advanced AIR 1988 · NTSE Scholar · KVPY Scholar · CAT 99.6 percentile</div>
-          </div>
-        </div>
-        <div>
-          <div class="eyebrow eyebrow--spaced">Skills &amp; Tools</div>
-          <div class="skills-cols">
-            <div>
-              <div class="skill-cluster-name">Product &amp; Strategy</div>
-              <div class="skill-list">
-                <div class="skill-item">0→1 Product Discovery</div>
-                <div class="skill-item">GTM Strategy</div>
-                <div class="skill-item">Product &amp; Growth Roadmaps</div>
-                <div class="skill-item">User Research &amp; A/B Testing</div>
-                <div class="skill-item">Stakeholder Leadership</div>
-                <div class="skill-item">Agile / Scrum</div>
-              </div>
-            </div>
-            <div class="mt-20">
-              <div class="skill-cluster-name">AI, Data &amp; Engineering</div>
-              <div class="skill-list">
-                <div class="skill-item">GenAI App Development</div>
-                <div class="skill-item">ML / Predictive Models</div>
-                <div class="skill-item">SQL · Python</div>
-                <div class="skill-item">Tableau · Power BI</div>
-                <div class="skill-item">Cursor · Vercel · N8N</div>
-                <div class="skill-item">Systems Architecture</div>
-              </div>
-            </div>
-            <div class="mt-20">
-              <div class="skill-cluster-name">Tools &amp; Design</div>
-              <div class="skill-list">
-                <div class="skill-item">Figma · Lovable · Prototyping</div>
-                <div class="skill-item">Jira · Confluence · Notion</div>
-                <div class="skill-item">Dassault · IBM Doors · CATIA</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- ═══════════════ PROJECTS ═══════════════ -->
-<div class="page" id="page-projects">
-  <div class="wrap">
-    <div class="section">
-      <p class="eyebrow">Projects</p>
-      <h2 class="section-title">Products shipped, <em>ventures built</em></h2>
-      <div class="proj-columns">
-
-        <!-- LEFT: Professional Projects -->
-        <div class="proj-col">
-          <div class="proj-col-header">
-            <div class="proj-col-title">Professional Projects</div>
-            <div class="proj-col-sub">JLR · PayPal · 2020–2026</div>
-          </div>
-          <div class="sticky-board">
-
-            <div class="sticky-card sticky-tilt-1">
-              <div class="sticky-top"><span class="pinned-stage stage-shipped">Shipped</span><span class="proj-role">Systems Lead · PM</span></div>
-              <div class="sticky-name">2024 Climate Platform</div>
-              <div class="sticky-line">Next-gen in-cabin climate architecture for 2L+ units across 100+ global markets</div>
-              <div class="proj-tags proj-tags--spaced"><span class="proj-tag">Systems Eng.</span><span class="proj-tag">Automotive</span><span class="proj-tag">Platform</span></div>
-              <button class="sticky-expand-btn" onclick="toggleSticky(this)">+ Details</button>
-              <div class="sticky-details">
-                <div class="sticky-meta"><span class="meta-label">Problem</span><div class="meta-val">Scaling climate systems across diverse regulatory markets while meeting sustainability targets</div></div>
-                <div class="sticky-meta"><span class="meta-label">Value Prop</span><div class="meta-val">Single scalable platform reducing duplication and time-to-market across 100+ markets</div></div>
-                <div class="sticky-meta"><span class="meta-label">Impact</span><div class="meta-val">2L+ units · GBP 400M+ system · 8% energy efficiency gain via first-principles MPC</div></div>
-                <div class="sticky-meta"><span class="meta-label">Stakeholders</span><div class="meta-val">5 teams, 8 suppliers, UK &amp; India leadership</div></div>
-              </div>
-            </div>
-
-            <div class="sticky-card sticky-tilt-2">
-              <div class="sticky-top"><span class="pinned-stage stage-shipped">Shipped</span><span class="proj-role">Product Owner</span></div>
-              <div class="sticky-name">ML Failure Predictor</div>
-              <div class="sticky-line">ML-based component failure prediction for 1M+ user app via acoustic noise patterns</div>
-              <div class="proj-tags proj-tags--spaced"><span class="proj-tag">ML / AI</span><span class="proj-tag">Predictive</span><span class="proj-tag">1M+ users</span></div>
-              <button class="sticky-expand-btn" onclick="toggleSticky(this)">+ Details</button>
-              <div class="sticky-details">
-                <div class="sticky-meta"><span class="meta-label">Problem</span><div class="meta-val">Reactive failure detection causes costly unplanned repairs and poor owner experience</div></div>
-                <div class="sticky-meta"><span class="meta-label">Value Prop</span><div class="meta-val">Proactive failure alerts reduce warranty cost and improve owner NPS</div></div>
-                <div class="sticky-meta"><span class="meta-label">MVP</span><div class="meta-val">Noise-pattern ingestion → failure probability score → push alert with service booking</div></div>
-              </div>
-            </div>
-
-            <div class="sticky-card sticky-tilt-3">
-              <div class="sticky-top"><span class="pinned-stage stage-shipped">Shipped</span><span class="proj-role">Project Lead · UK</span></div>
-              <div class="sticky-name">Sustainable Cabin POC</div>
-              <div class="sticky-line">0→1 sustainable EV cabin prototype enabling EU and US 2030+ regulatory readiness</div>
-              <div class="proj-tags proj-tags--spaced"><span class="proj-tag">Sustainability</span><span class="proj-tag">EV</span><span class="proj-tag">0→1</span></div>
-              <button class="sticky-expand-btn" onclick="toggleSticky(this)">+ Details</button>
-              <div class="sticky-details">
-                <div class="sticky-meta"><span class="meta-label">Problem</span><div class="meta-val">EU/US 2030 regulations demand zero-emission interiors — no roadmap existed</div></div>
-                <div class="sticky-meta"><span class="meta-label">Value Prop</span><div class="meta-val">60% R&D cost reduction via IISc Bangalore partnership. £100K+ saved.</div></div>
-                <div class="sticky-meta"><span class="meta-label">Impact</span><div class="meta-val">25% improvement in time-to-comfort · 50+ customer interviews · concept validated</div></div>
-              </div>
-            </div>
-
-            <div class="sticky-card sticky-tilt-1">
-              <div class="sticky-top"><span class="pinned-stage stage-shipped">Shipped</span><span class="proj-role">Builder · Scrum Master</span></div>
-              <div class="sticky-name">Analytics Dashboard Tool</div>
-              <div class="sticky-line">Multi-source data aggregation platform serving 120+ engineers with automated reports</div>
-              <div class="proj-tags proj-tags--spaced"><span class="proj-tag">Analytics</span><span class="proj-tag">Automation</span><span class="proj-tag">Internal Tool</span></div>
-              <button class="sticky-expand-btn" onclick="toggleSticky(this)">+ Details</button>
-              <div class="sticky-details">
-                <div class="sticky-meta"><span class="meta-label">Problem</span><div class="meta-val">Engineers spending excessive manual effort consolidating data from disparate systems</div></div>
-                <div class="sticky-meta"><span class="meta-label">Impact</span><div class="meta-val">2K+ hrs saved annually · 30% boost in team output · £900K cost saved · first Scrum adoption</div></div>
-              </div>
-            </div>
-
-            <div class="sticky-card sticky-tilt-2">
-              <div class="sticky-top"><span class="pinned-stage stage-shipped">Shipped</span><span class="proj-role">PM Intern · PayPal</span></div>
-              <div class="sticky-name">PayPal GenAI Suite</div>
-              <div class="sticky-line">GenAI-powered POS aggregation, smart analytics and payout automation for SMB merchants</div>
-              <div class="proj-tags proj-tags--spaced"><span class="proj-tag">GenAI</span><span class="proj-tag">FinTech</span><span class="proj-tag">B2B/B2C</span></div>
-              <button class="sticky-expand-btn" onclick="toggleSticky(this)">+ Details</button>
-              <div class="sticky-details">
-                <div class="sticky-meta"><span class="meta-label">Problem</span><div class="meta-val">Merchant fragmentation across POS systems reduces analytics visibility and ARPU</div></div>
-                <div class="sticky-meta"><span class="meta-label">Value Prop</span><div class="meta-val">Unified POS view with AI recommendations targeting +10% ARPU growth</div></div>
-                <div class="sticky-meta"><span class="meta-label">Stakeholders</span><div class="meta-val">PayPal senior leadership, product and engineering teams</div></div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <!-- RIGHT: Self Projects -->
-        <div class="proj-col">
-          <div class="proj-col-header">
-            <div class="proj-col-title">Self Projects</div>
-            <div class="proj-col-sub">Solo builds · 2024–Present</div>
-          </div>
-          <div class="sticky-board">
-
-            <div class="sticky-card sticky-yellow sticky-tilt-3">
-              <div class="sticky-top"><span class="pinned-stage stage-live">Live</span><span class="proj-role">Co-Founder</span></div>
-              <div class="sticky-name">ExperGo</div>
-              <div class="sticky-line">AI-led expertise platform connecting retired professionals with emerging talent</div>
-              <div class="proj-tags proj-tags--spaced"><span class="proj-tag">AI Matching</span><span class="proj-tag">EdTech</span><span class="proj-tag">B2B2C</span></div>
-              <button class="sticky-expand-btn" onclick="toggleSticky(this)">+ Details</button>
-              <div class="sticky-details">
-                <div class="sticky-meta"><span class="meta-label">Problem</span><div class="meta-val">Retired professionals' tacit knowledge is wasted; founders lack affordable mentorship</div></div>
-                <div class="sticky-meta"><span class="meta-label">Value Prop</span><div class="meta-val">Training-Placement-As-Service for universities, venture advisory for MSMEs</div></div>
-                <div class="sticky-meta"><span class="meta-label">Traction</span><div class="meta-val">TIC 2026 National Winner · 30+ stakeholder interviews · 4-member founding team</div></div>
-                <div class="mt-10"><a href="#" class="proj-link">View MVP →</a></div>
-              </div>
-            </div>
-
-            <div class="sticky-card sticky-yellow sticky-tilt-1">
-              <div class="sticky-top"><span class="pinned-stage stage-mvp">MVP</span><span class="proj-role">Solo Builder</span></div>
-              <div class="sticky-name">CampAIgn</div>
-              <div class="sticky-line">AI marketing campaign generator for early-stage startups with zero budget</div>
-              <div class="proj-tags proj-tags--spaced"><span class="proj-tag">GenAI</span><span class="proj-tag">MarTech</span><span class="proj-tag">Startups</span></div>
-              <button class="sticky-expand-btn" onclick="toggleSticky(this)">+ Details</button>
-              <div class="sticky-details">
-                <div class="sticky-meta"><span class="meta-label">Problem</span><div class="meta-val">Early-stage founders lack time and budget for structured marketing campaigns</div></div>
-                <div class="sticky-meta"><span class="meta-label">MVP</span><div class="meta-val">Campaign brief → channel strategy → copy briefs → GTM calendar</div></div>
-                <div class="mt-10"><a href="#" class="proj-link">View Demo →</a></div>
-              </div>
-            </div>
-
-            <div class="sticky-card sticky-yellow sticky-tilt-2">
-              <div class="sticky-top"><span class="pinned-stage stage-mvp">MVP</span><span class="proj-role">Solo Builder</span></div>
-              <div class="sticky-name">KalkiAI</div>
-              <div class="sticky-line">AI scenario simulator for strategic decisions under uncertainty</div>
-              <div class="proj-tags proj-tags--spaced"><span class="proj-tag">GenAI</span><span class="proj-tag">Strategy</span><span class="proj-tag">B2B</span></div>
-              <button class="sticky-expand-btn" onclick="toggleSticky(this)">+ Details</button>
-              <div class="sticky-details">
-                <div class="sticky-meta"><span class="meta-label">Problem</span><div class="meta-val">Leaders make high-stakes decisions without stress-testing future scenarios</div></div>
-                <div class="sticky-meta"><span class="meta-label">MVP</span><div class="meta-val">Scenario generation → probability weighting → risk matrix → strategic options</div></div>
-                <div class="mt-10"><a href="#" class="proj-link">View Demo →</a></div>
-              </div>
-            </div>
-
-            <div class="sticky-card sticky-yellow sticky-tilt-3">
-              <div class="sticky-top"><span class="pinned-stage stage-mvp">MVP</span><span class="proj-role">Solo Builder</span></div>
-              <div class="sticky-name">InLight</div>
-              <div class="sticky-line">AI newsletter curator that distils signal from noise across your interests daily</div>
-              <div class="proj-tags proj-tags--spaced"><span class="proj-tag">GenAI</span><span class="proj-tag">Media</span><span class="proj-tag">Productivity</span></div>
-              <button class="sticky-expand-btn" onclick="toggleSticky(this)">+ Details</button>
-              <div class="sticky-details">
-                <div class="sticky-meta"><span class="meta-label">Problem</span><div class="meta-val">Professionals subscribe to 20+ newsletters but read 3; critical insights are buried</div></div>
-                <div class="sticky-meta"><span class="meta-label">MVP</span><div class="meta-val">Topic curation → daily digest → AI summary with source link → Notion export</div></div>
-                <div class="mt-10"><a href="#" class="proj-link">View Demo →</a></div>
-              </div>
-            </div>
-
-            <div class="sticky-card sticky-yellow sticky-tilt-1">
-              <div class="sticky-top"><span class="pinned-stage stage-mvp">MVP</span><span class="proj-role">Solo Builder</span></div>
-              <div class="sticky-name">Kutumb Fin</div>
-              <div class="sticky-line">Family finance manager for Indian households to track, plan and grow money together</div>
-              <div class="proj-tags proj-tags--spaced"><span class="proj-tag">FinTech</span><span class="proj-tag">Consumer</span><span class="proj-tag">India</span></div>
-              <button class="sticky-expand-btn" onclick="toggleSticky(this)">+ Details</button>
-              <div class="sticky-details">
-                <div class="sticky-meta"><span class="meta-label">Problem</span><div class="meta-val">Indian families lack collaborative planning tools for joint finances and shared goals</div></div>
-                <div class="sticky-meta"><span class="meta-label">MVP</span><div class="meta-val">Shared wallet · expense tracking · goal jars · investment nudges · family dashboard</div></div>
-                <div class="mt-10"><a href="#" class="proj-link">View Demo →</a></div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- ═══════════════ BLOG ═══════════════ -->
-<div class="page" id="page-blog">
-  <div class="wrap">
-    <div class="section">
-      <p class="eyebrow">Rohoscope</p>
-      <h2 class="section-title">Thoughts, <em>writing and ideas</em></h2>
-      <div class="blog-grid">
-        <div class="blog-card">
-          <div class="blog-meta"><span class="blog-tag blog-tag-venture">Venture</span><span class="blog-date">May 2026</span></div>
-          <div class="blog-title">Winning Tata Imagination Challenge — The ExperGo Story</div>
-          <div class="blog-excerpt">How a half-baked idea about retired professionals turned into a national winner. The interviews, the pivots, and what I learned about building in public.</div>
-          <div class="blog-footer"><span class="blog-read">8 min read</span><span class="blog-status">Coming soon</span></div>
-        </div>
-        <div class="blog-card">
-          <div class="blog-meta"><span class="blog-tag blog-tag-career">Career</span><span class="blog-date">Apr 2025</span></div>
-          <div class="blog-title">The JLR India Road — Building a Team from Zero</div>
-          <div class="blog-excerpt">What it really means to be a seed member. The chaos, the milestones, and how we scaled India's first climate engineering team from 0 to 8 in three years.</div>
-          <div class="blog-footer"><span class="blog-read">6 min read</span><span class="blog-status">Coming soon</span></div>
-        </div>
-        <div class="blog-card">
-          <div class="blog-meta"><span class="blog-tag blog-tag-career">Career</span><span class="blog-date">Apr 2025</span></div>
-          <div class="blog-title">Why I chose ISB — and what I expected vs. got</div>
-          <div class="blog-excerpt">Four years at JLR gave me the operator's lens. ISB is giving me the vocabulary. Reflections on one year in, and the gaps I didn't know I had.</div>
-          <div class="blog-footer"><span class="blog-read">5 min read</span><span class="blog-status">Coming soon</span></div>
-        </div>
-        <div class="blog-card">
-          <div class="blog-meta"><span class="blog-tag blog-tag-product">Product</span><span class="blog-date">Mar 2026</span></div>
-          <div class="blog-title">Vibe-coding 8 products in 6 months — what actually works</div>
-          <div class="blog-excerpt">Cursor, Vercel, N8N, and a lot of late nights. Honest notes on building MVPs fast without a dev team, and which shortcuts bite you later.</div>
-          <div class="blog-footer"><span class="blog-read">7 min read</span><span class="blog-status">Coming soon</span></div>
-        </div>
-        <div class="blog-card">
-          <div class="blog-meta"><span class="blog-tag blog-tag-venture">Venture</span><span class="blog-date">Feb 2026</span></div>
-          <div class="blog-title">60% R&D cost reduction by moving work from UK to India — lessons from JLR</div>
-          <div class="blog-excerpt">A case study from my Gaydon days. How we structured India's first R&D execution model with IISc and what operators get wrong about nearshoring.</div>
-          <div class="blog-footer"><span class="blog-read">9 min read</span><span class="blog-status">Coming soon</span></div>
-        </div>
-        <div class="blog-card">
-          <div class="blog-meta"><span class="blog-tag blog-tag-product">Product</span><span class="blog-date">Jan 2026</span></div>
-          <div class="blog-title">GenAI in B2B products — an honest take from inside PayPal</div>
-          <div class="blog-excerpt">Six months, two product areas, one GenAI feature from brief to GTM. What the real bottlenecks are when building AI into enterprise merchant flows.</div>
-          <div class="blog-footer"><span class="blog-read">6 min read</span><span class="blog-status">Coming soon</span></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- ═══════════════ CONTACT ═══════════════ -->
-<div class="page" id="page-contact">
-  <div class="wrap">
-    <div class="section">
-      <p class="eyebrow">Connect</p>
-      <h2 class="section-title">Let's build <em>something</em></h2>
-      <div class="contact-grid">
-        <div>
-          <p class="contact-body">I'm actively exploring <strong>EIR, CEO's Office, Founder's Office</strong> and <strong>0→1 PM</strong> roles. If you're building something ambitious and need an operator who bridges technology and business, I'd love to talk.</p>
-          <div class="contact-links">
-            <a href="mailto:rohansrt5@gmail.com" class="contact-link"><span class="contact-icon">✉</span>rohansrt5@gmail.com</a>
-            <a href="https://linkedin.com/in/rohansrt" target="_blank" class="contact-link"><span class="contact-icon">in</span>linkedin.com/in/rohansrt</a>
-            <a href="tel:+918979484758" class="contact-link"><span class="contact-icon">☎</span>+91 897 948 4758</a>
-          </div>
-        </div>
-        <div class="contact-form">
-          <div class="form-title">Send a message</div>
-          <div class="form-group"><label class="form-label">Your name</label><input type="text" class="form-input" placeholder="Jane Smith"/></div>
-          <div class="form-group"><label class="form-label">Email</label><input type="email" class="form-input" placeholder="jane@company.com"/></div>
-          <div class="form-group"><label class="form-label">What's this about?</label><textarea class="form-input" placeholder="EIR opportunity, or just want to chat about product..."></textarea></div>
-          <button class="form-submit" onclick="this.textContent='Sent ✓';this.style.background='#2d6a4f'">Send Message</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- ═══════════════ RESUME ═══════════════ -->
-<div class="page" id="page-resume">
-  <div class="wrap">
-    <div class="section">
-      <p class="eyebrow">Resume</p>
-      <div class="resume-toolbar">
-        <div><div class="resume-meta-title">Rohan Saraswat — CV</div><div class="resume-meta-sub">Last updated May 2026 · v4</div></div>
-        <a href="assets/pdf/Rohan_CV_v4.pdf" download class="btn btn-navy">Download PDF ↓</a>
-      </div>
-      <div id="pdf-container">
-        <div id="pdf-loading">Loading resume...</div>
-        <canvas id="pdf-canvas-1"></canvas>
-        <canvas id="pdf-canvas-2"></canvas>
-      </div>
-</div>
   </div>
 </div>
 
