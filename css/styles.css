@@ -190,6 +190,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;background:rgba(245,243,239,
 .proj-link{font-family:'DM Mono',monospace;font-size:10px;letter-spacing:.1em;color:var(--navy);display:flex;align-items:center;gap:5px;transition:gap .2s;cursor:pointer}
 .proj-link:hover{gap:9px}
 .proj-link-na{font-family:'DM Mono',monospace;font-size:10px;color:var(--dim);letter-spacing:.06em}
+.proj-showcase{width:100%;max-width:960px;margin:0 auto}
 .proj-sep{margin-top:48px;padding-top:40px;border-top:1px solid var(--border)}
 .proj-divider{height:1px;background:var(--border);margin:14px 0}
 
