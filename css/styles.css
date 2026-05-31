@@ -69,9 +69,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;background:rgba(245,243,239,
 .orgs-row{display:flex;align-items:center;justify-content:center;flex-wrap:wrap}
 .org-pill{display:flex;flex-direction:column;align-items:center;padding:18px 56px;border-right:1px solid var(--border);gap:4px}
 .org-pill:last-child{border-right:none}
-.org-icon{width:48px;height:48px;object-fit:contain}
-.org-icon--lg{width:96px;height:96px}
-.org-icon--md{width:72px;height:72px}
+.org-icon{height:58px;width:auto;object-fit:contain}
 .org-name{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:500;color:var(--text)}
 .org-detail{font-size:11px;color:var(--muted);letter-spacing:.04em}
 .org-tenure{font-family:'DM Mono',monospace;font-size:9px;color:var(--navy);letter-spacing:.1em;font-weight:500}
