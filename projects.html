@@ -35,9 +35,95 @@
     <div class="section">
       <p class="eyebrow">Projects</p>
       <h2 class="section-title">Products shipped, <em>ventures built</em></h2>
-      <div class="proj-showcase">
+
+      <!-- Projects grid: 3 cards per row -->
+      <div class="proj-cards-row">
+
+      <!-- ExperGo Card -->
+      <div class="eg-card">
+
+        <!-- ROW 1: title left, VIEW MVP right -->
+        <div class="eg-row1">
+          <h1 class="eg-title">ExperGo</h1>
+          <a href="https://rsaraswat.wixsite.com/expergo" target="_blank" rel="noopener" class="eg-mvp-btn">
+            <span class="eg-mvp-arrow">↗</span> VIEW MVP
+          </a>
+        </div>
+
+        <!-- ROW 2: divider (left-aligned) -->
+        <div class="eg-divider"></div>
+
+        <!-- ROW 3: tagline left, hero image right -->
+        <div class="eg-row3">
+          <div class="eg-left">
+            <p class="eg-tagline">Hard-earned wisdom<br/>shouldn't retire<br/>with its owner.</p>
+            <p class="eg-category">AI MATCHING WITH YOUTH</p>
+          </div>
+          <div class="eg-right">
+            <img
+              src="assets/images/projects/expergo/expergo-hero.png"
+              alt="ExperGo hero"
+              class="eg-hero-img"
+            />
+          </div>
+        </div>
+
+        <!-- DIVIDER -->
+        <hr class="eg-hr"/>
+
+        <!-- BOTTOM STRIP: 4 equal blocks -->
+        <div class="eg-strips">
+          <div class="eg-strip-item" title="Mentorship">
+            <img src="assets/icons/projects/mentorship.svg" alt="Mentorship" class="eg-strip-icon"/>
+            <span class="eg-strip-label">MENTORSHIP</span>
+          </div>
+          <div class="eg-strip-sep"></div>
+          <div class="eg-strip-item" title="AI Matching">
+            <img src="assets/icons/projects/ai-matching.svg" alt="AI Matching" class="eg-strip-icon"/>
+            <span class="eg-strip-label">AI MATCHING</span>
+          </div>
+          <div class="eg-strip-sep"></div>
+          <div class="eg-strip-item" title="Trust">
+            <img src="assets/icons/projects/trust-safety.svg" alt="Trust" class="eg-strip-icon"/>
+            <span class="eg-strip-label">TRUST</span>
+          </div>
+          <div class="eg-strip-sep"></div>
+          <div class="eg-strip-item eg-strip-details" onclick="document.getElementById('eg-modal').style.display='flex'">
+            <span class="eg-strip-plus">+</span>
+            <span class="eg-strip-label"><strong>DETAILS</strong></span>
+            <svg class="eg-strip-icon-details" viewBox="0 0 24 24" width="10" height="10" fill="none" stroke="#0F2454" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"/>
+              <polyline points="13 6 19 12 13 18"/>
+            </svg>
+          </div>
+        </div>
+
+      </div><!-- /eg-card -->
+
+      <!-- Placeholder card 2 -->
+      <div class="eg-card eg-card--placeholder">
+        <div class="eg-placeholder-inner">
+          <span class="eg-placeholder-label">Coming Soon</span>
+        </div>
       </div>
+
+      <!-- Placeholder card 3 -->
+      <div class="eg-card eg-card--placeholder">
+        <div class="eg-placeholder-inner">
+          <span class="eg-placeholder-label">Coming Soon</span>
+        </div>
+      </div>
+
+      </div><!-- /proj-cards-row -->
     </div>
+  </div>
+</div>
+
+<!-- ExperGo Modal (placeholder) -->
+<div id="eg-modal" style="display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,0.45);align-items:center;justify-content:center;" onclick="if(event.target===this)this.style.display='none'">
+  <div style="width:1200px;max-width:95vw;height:800px;max-height:92vh;background:#FBFAF8;border-radius:24px;display:flex;align-items:center;justify-content:center;position:relative;">
+    <button onclick="document.getElementById('eg-modal').style.display='none'" style="position:absolute;top:24px;right:28px;background:none;border:none;font-size:24px;cursor:pointer;color:#0F2454;font-family:'DM Mono',monospace;">✕</button>
+    <p style="font-family:'DM Mono',monospace;font-size:18px;color:#0F2454;letter-spacing:0.08em;">ExperGo details coming soon</p>
   </div>
 </div>
 

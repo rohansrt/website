@@ -194,6 +194,230 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;background:rgba(245,243,239,
 .proj-sep{margin-top:48px;padding-top:40px;border-top:1px solid var(--border)}
 .proj-divider{height:1px;background:var(--border);margin:14px 0}
 
+/* ── Projects row ────────────────────────────────────────────────────────── */
+#page-projects .wrap{max-width:1100px}
+
+.proj-cards-row{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:16px;
+  margin-top:40px;
+}
+
+/* ── ExperGo Card ────────────────────────────────────────────────────────── */
+.eg-card{
+  background:#FBFAF8;
+  border:2px solid #0F2454;
+  border-radius:20px;
+  padding:22px 22px 0 22px;
+  box-sizing:border-box;
+  display:flex;
+  flex-direction:column;
+  aspect-ratio:4/3;
+  overflow:hidden;
+  min-width:0;
+}
+
+.eg-card--placeholder{
+  border:2px dashed #b0bbcc;
+  background:#f7f8fa;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  aspect-ratio:4/3;
+  border-radius:20px;
+}
+.eg-placeholder-inner{opacity:0.35}
+.eg-placeholder-label{
+  font-family:'DM Mono',monospace;
+  font-size:10px;
+  letter-spacing:3px;
+  color:#0F2454;
+  text-transform:uppercase;
+}
+
+/* Row 1: title left, VIEW MVP right — same baseline */
+.eg-row1{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:10px;
+  flex-shrink:0;
+  min-width:0;
+}
+.eg-title{
+  font-family:'Cormorant Garamond',serif;
+  font-size:clamp(28px,3vw,48px);
+  font-weight:400;
+  color:#0F2454;
+  line-height:0.95;
+  letter-spacing:-0.01em;
+  min-width:0;
+}
+.eg-mvp-btn{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  padding:0 14px;
+  height:34px;
+  white-space:nowrap;
+  flex-shrink:0;
+  border:2px solid #173F7A;
+  border-radius:8px;
+  font-family:'DM Mono',monospace;
+  font-size:10px;
+  font-weight:500;
+  color:#0F2454;
+  text-decoration:none;
+  letter-spacing:0.08em;
+  transition:background .2s,color .2s;
+  margin-top:4px;
+}
+.eg-mvp-btn:hover{background:#0F2454;color:#FBFAF8}
+.eg-mvp-arrow{font-size:12px}
+
+/* Short navy divider under title */
+.eg-divider{
+  width:32px;
+  height:3px;
+  background:#173F7A;
+  margin:10px 0 0 0;
+  flex-shrink:0;
+}
+
+/* Middle row: tagline+category left, hero right */
+.eg-row3{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  flex:1;
+  min-height:0;
+  min-width:0;
+  margin-top:12px;
+}
+.eg-left{
+  flex:1 1 45%;
+  min-width:0;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  gap:8px;
+}
+.eg-tagline{
+  font-family:'DM Mono',monospace;
+  font-size:clamp(8.5px,0.78vw,11px);
+  line-height:1.85;
+  color:#0F2454;
+}
+.eg-category{
+  font-family:'DM Mono',monospace;
+  font-size:clamp(7px,0.62vw,9px);
+  font-weight:700;
+  letter-spacing:2px;
+  color:#173F7A;
+  text-transform:uppercase;
+}
+.eg-right{
+  flex:1 1 52%;
+  min-width:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:0;
+  overflow:hidden;
+}
+.eg-hero-img{
+  width:100%;
+  height:auto;
+  object-fit:contain;
+  display:block;
+}
+
+/* Rule above strip */
+.eg-hr{
+  border:none;
+  border-top:1px solid #E0E0E0;
+  margin:14px 0 0;
+  flex-shrink:0;
+}
+
+/* Bottom strip: 4 equal blocks with pipe separators */
+.eg-strips{
+  display:flex;
+  align-items:stretch;
+  height:56px;
+  flex-shrink:0;
+  overflow:hidden;
+  padding:0;
+}
+.eg-strip-item{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:5px;
+  flex:1 1 0;
+  padding:0 4px;
+  min-width:0;
+}
+.eg-strip-sep{
+  width:1px;
+  background:#E0E0E0;
+  flex-shrink:0;
+  align-self:stretch;
+  margin:12px 0;
+}
+.eg-strip-icon{
+  width:16px;
+  height:16px;
+  flex-shrink:0;
+}
+.eg-strip-label{
+  font-family:'DM Mono',monospace;
+  font-size:7px;
+  font-weight:500;
+  letter-spacing:0.9px;
+  color:#0F2454;
+  text-transform:uppercase;
+  white-space:nowrap;
+}
+
+/* DETAILS — rounded rectangle button centered in its equal block */
+.eg-strip-details{
+  cursor:pointer;
+  flex:1 1 0;
+  flex-direction:row;
+  gap:2px;
+  background:#0F2454;
+  border:1.5px solid #0F2454;
+  border-radius:20px;
+  padding:0 10px;
+  margin:10px 6px;
+  height:auto;
+  align-self:stretch;
+  transition:background .2s, color .2s;
+}
+.eg-strip-details .eg-strip-label{
+  color:#FBFAF8;
+  font-size:9px;
+  font-weight:900;
+  letter-spacing:2px;
+}
+.eg-strip-plus{
+  font-family:'DM Mono',monospace;
+  font-size:18px;
+  font-weight:300;
+  color:#FBFAF8;
+  line-height:1;
+  flex-shrink:0;
+  margin-left:8px;
+  transition:color .2s;
+}
+.eg-strip-details:hover{background:#0F2454;}
+.eg-strip-details:hover .eg-strip-label{color:#FBFAF8;}
+.eg-strip-details:hover .eg-strip-plus{color:#FBFAF8;}
+.eg-strip-details:hover .eg-strip-icon-details{stroke:#FBFAF8;}
+
 /* ── BLOG ────────────────────────────────────────────────────────────────── */
 .blog-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
 .blog-card{background:var(--surface);padding:24px;border:1px solid var(--border);border-radius:8px;cursor:pointer;transition:box-shadow .2s}
