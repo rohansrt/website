@@ -197,6 +197,36 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;background:rgba(245,243,239,
 /* ── Projects row ────────────────────────────────────────────────────────── */
 #page-projects .wrap{max-width:1100px}
 
+/* ── Project Category Tabs ── */
+.proj-tabs{
+  display:flex;
+  gap:0;
+  border-bottom:1px solid var(--border);
+  margin-bottom:0;
+}
+.proj-tab{
+  font-family:'Outfit',sans-serif;
+  font-size:11px;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--muted);
+  background:none;
+  border:none;
+  border-bottom:2px solid transparent;
+  padding:0 28px 14px 0;
+  cursor:pointer;
+  position:relative;
+  bottom:-1px;
+  transition:color .2s,border-color .2s;
+  font-weight:300;
+}
+.proj-tab:hover{color:var(--navy)}
+.proj-tab.active{color:var(--navy);border-bottom-color:var(--navy);font-weight:500}
+
+/* ── Project Tab Panels ── */
+.proj-tab-panel{display:none}
+.proj-tab-panel.active{display:block}
+
 .proj-cards-row{
   display:grid;
   grid-template-columns:repeat(3,1fr);
@@ -235,6 +265,25 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;background:rgba(245,243,239,
   color:#0F2454;
   text-transform:uppercase;
 }
+
+/* Named placeholder (Gulliver, CampAIgn) */
+.eg-named-placeholder{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:10px;
+}
+.eg-np-name{
+  font-family:'Cormorant Garamond',serif;
+  font-size:clamp(22px,2.4vw,40px);
+  font-weight:400;
+  color:#0F2454;
+  letter-spacing:-0.01em;
+  opacity:0.55;
+  line-height:1;
+}
+.eg-named-placeholder .eg-placeholder-label{opacity:0.35}
+
 
 /* Row 1: title left, VIEW MVP right — same baseline */
 .eg-row1{
@@ -878,6 +927,10 @@ footer{padding:24px 56px;border-top:1px solid var(--border);background:var(--sur
   .contact-grid,.timeline-grid{grid-template-columns:1fr;gap:40px}
   .pinned-grid{grid-template-columns:1fr}
   footer{flex-direction:column;gap:6px;text-align:center;padding:20px}
+  .proj-cards-row{grid-template-columns:1fr}
+}
+@media(max-width:680px){
+  .proj-tab{font-size:10px;padding:0 20px 12px 0}
 }
 
 /* ── Inline-style helper classes ───────────────────────────────────────────────────── */
