@@ -297,7 +297,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;background:rgba(245,243,239,
 }
 .eg-title{
   font-family:'Cormorant Garamond',serif;
-  font-size:clamp(23.8px,2.55vw,40.8px);
+  font-size:clamp(19px,2.04vw,32.6px);
   font-weight:400;
   color:#0F2454;
   line-height:0.95;
@@ -470,6 +470,49 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;background:rgba(245,243,239,
 .eg-strip-details:hover .eg-strip-label{color:#FBFAF8;}
 .eg-strip-details:hover .eg-strip-plus{color:#FBFAF8;}
 .eg-strip-details:hover .eg-strip-icon-details{stroke:#FBFAF8;}
+
+/* ── Professional Card variant ───────────────────────────────────────────── */
+.eg-card--pro .eg-row1 {
+  align-items: flex-start;
+}
+.eg-card--pro[data-id="paypal-1"] {
+  padding-top: 11px;
+}
+.eg-card--pro[data-id="paypal-1"] .eg-title {
+  margin-top: 9px;
+}
+.eg-card--pro[data-id="paypal-1"] .eg-divider {
+  margin-top: 2px;
+}
+.eg-pro-hero {
+  width: 46%;
+  max-height: 96px;
+  object-fit: contain;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.eg-pro-overview {
+  margin-top: 10px;
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  overflow: hidden;
+}
+.eg-pro-overview-text {
+  font-family: 'Outfit', sans-serif;
+  font-size: clamp(9px, 0.8vw, 11px);
+  font-weight: 300;
+  color: #0F2454;
+  line-height: 1.68;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+.eg-pro-overview .eg-category {
+  flex-shrink: 0;
+}
 
 /* ── ExperGo Modal ───────────────────────────────────────────────────────── */
 .egm-overlay {

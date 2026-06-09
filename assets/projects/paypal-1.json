@@ -1,0 +1,105 @@
+{
+  "id": "paypal-1",
+  "projectType": "professional",
+  "title": "PayPal PM",
+  "tagline": "Designed an AI-enabled growth ecosystem for ASEAN tourism merchants by identifying opportunities across payments, merchant operations, financing, and customer acquisition.",
+  "category": "AI GROWTH ECOSYSTEM",
+  "heroImage": "assets/title icons/paypal-icon.png",
+  "mvpLink": "#",
+  "card": {
+    "strips": [
+      { "icon": "assets/icons/projects/tourism.svg",  "label": "TOURISM"  },
+      { "icon": "assets/icons/projects/payments.svg", "label": "PAYMENTS" },
+      { "icon": "assets/icons/projects/brand-growth.svg", "label": "GROWTH" }
+    ]
+  },
+  "detail": {
+    "row1": [
+      {
+        "title": "CUSTOMER NEED",
+        "icon": "assets/icons/projects/customer-need.svg",
+        "content": {
+          "type": "text",
+          "text": "Tourism merchants operate across fragmented systems for payments, financing, analytics, and customer acquisition. While transactions are digitised, opportunities to drive merchant growth beyond checkout remain largely untapped."
+        }
+      },
+      {
+        "title": "TARGET USERS",
+        "icon": "assets/icons/projects/target-users.svg",
+        "content": {
+          "type": "groups",
+          "groups": [
+            { "title": "For Tourism Merchants", "items": ["Hotels & stays", "Restaurants & cafés", "Tour operators"] },
+            { "title": "Ecosystem Partners",    "items": ["Travelers", "Financial institutions", "Tourism platforms"] }
+          ]
+        }
+      },
+      {
+        "title": "VALUE PROPOSITION",
+        "icon": "assets/icons/projects/value-proposition.svg",
+        "content": {
+          "type": "groups",
+          "groups": [
+            { "title": "For Merchants", "items": ["Increase revenue", "Simplify operations", "Improve customer reach"] },
+            { "title": "For PayPal",    "items": ["Deepen merchant engagement", "Expand service portfolio", "Unlock growth opportunities"] }
+          ]
+        }
+      },
+      {
+        "title": "HOW IT WORKS",
+        "icon": "assets/icons/projects/how-it-works.svg",
+        "noBorder": true,
+        "content": {
+          "type": "flow",
+          "steps": [
+            { "icon": "assets/icons/projects/expert-profile.svg",      "label": "Merchant Research"     },
+            { "icon": "assets/icons/projects/experience-journeys.svg", "label": "Journey Mapping"       },
+            { "icon": "assets/icons/projects/matching-engine.svg",     "label": "Opportunity Discovery" },
+            { "icon": "assets/icons/projects/market-opportunity.svg",  "label": "Growth Strategy Design"}
+          ]
+        }
+      }
+    ],
+    "row2": {
+      "title": "KEY CAPABILITIES",
+      "icon": "assets/icons/projects/mvp-features.svg",
+      "pills": ["AI POS Assistant", "Merchant Analytics", "Smart Financing", "Tourism Discovery", "Automated Payouts", "Cross-Border Payments"]
+    },
+    "row3": [
+      {
+        "title": "KEY STAKEHOLDERS",
+        "icon": "assets/icons/projects/key-stakeholders.svg",
+        "content": {
+          "type": "list",
+          "items": ["Tourism Merchants", "Travelers", "PayPal Product Teams", "Financial Partners"]
+        }
+      },
+      {
+        "title": "METHODOLOGY",
+        "icon": "assets/icons/projects/methodology.svg",
+        "content": {
+          "type": "list",
+          "items": ["Market Research", "Customer Interviews", "Journey Mapping", "Solution Design", "Impact Prioritization"]
+        }
+      },
+      {
+        "title": "BUSINESS IMPACT",
+        "icon": "assets/icons/projects/market-opportunity.svg",
+        "content": {
+          "type": "text-chart",
+          "text": "Built a strategic roadmap for expanding PayPal's merchant value proposition beyond payments through AI-enabled growth, financing, and operational support capabilities."
+        }
+      },
+      {
+        "title": "KEY LEARNINGS",
+        "icon": "assets/icons/projects/founder-note.svg",
+        "noBorder": true,
+        "isFounder": true,
+        "content": {
+          "type": "quote",
+          "text": "The strongest payment platforms don't simply process transactions. They help businesses attract customers, operate efficiently, and grow sustainably."
+        }
+      }
+    ]
+  }
+}

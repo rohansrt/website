@@ -11,6 +11,6 @@
     { "id": "jlr-2",    "placeholder": true, "name": "JLR — 2"    },
     { "id": "jlr-3",    "placeholder": true, "name": "JLR — 3"    },
     { "id": "jlr-4",    "placeholder": true, "name": "JLR — 4"    },
-    { "id": "paypal-1", "placeholder": true, "name": "PayPal — 1" }
+    { "id": "paypal-1" }
   ]
 }

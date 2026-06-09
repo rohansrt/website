@@ -116,6 +116,45 @@
     return el;
   }
 
+  // ── Professional Card DOM builder ────────────────────────────────────────
+
+  function buildProfessionalCard(data) {
+    var stripsHTML = data.card.strips.map(function (strip) {
+      return '<div class="eg-strip-item" title="' + esc(strip.label) + '">' +
+        '<img src="' + esc(strip.icon) + '" alt="' + esc(strip.label) + '" class="eg-strip-icon"/>' +
+        '<span class="eg-strip-label">' + esc(strip.label) + '</span>' +
+        '</div>' +
+        '<div class="eg-strip-sep"></div>';
+    }).join('');
+
+    var el = document.createElement('div');
+    el.className = 'eg-card eg-card--pro';
+    el.dataset.id = data.id;
+    el.innerHTML =
+      '<div class="eg-row1">' +
+        '<h1 class="eg-title' + (data.titleSmall ? ' eg-title--sm' : '') + '">' + esc(data.title) + '</h1>' +
+        '<img src="' + esc(data.heroImage) + '" alt="' + esc(data.title) + ' ecosystem" class="eg-pro-hero"/>' +
+      '</div>' +
+      '<div class="eg-divider"></div>' +
+      '<div class="eg-pro-overview">' +
+        '<p class="eg-pro-overview-text">' + esc(data.tagline) + '</p>' +
+        '<p class="eg-category">' + esc(data.category) + '</p>' +
+      '</div>' +
+      '<hr class="eg-hr"/>' +
+      '<div class="eg-strips">' +
+        stripsHTML +
+        '<div class="eg-strip-item eg-strip-details">' +
+          '<span class="eg-strip-plus">+</span>' +
+          '<span class="eg-strip-label"><strong>DETAILS</strong></span>' +
+          '<svg class="eg-strip-icon-details" viewBox="0 0 24 24" width="10" height="10" fill="none" stroke="#0F2454" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">' +
+            '<line x1="5" y1="12" x2="19" y2="12"/>' +
+            '<polyline points="13 6 19 12 13 18"/>' +
+          '</svg>' +
+        '</div>' +
+      '</div>';
+    return el;
+  }
+
   // ── Detail modal DOM builder ──────────────────────────────────────────────────
 
   function buildModal(data) {
@@ -242,7 +281,7 @@
     fetch('assets/projects/' + id + '.json')
       .then(function (r) { return r.json(); })
       .then(function (data) {
-        var cardEl = buildCard(data);
+        var cardEl = data.projectType === 'professional' ? buildProfessionalCard(data) : buildCard(data);
         slot.parentNode.replaceChild(cardEl, slot);
 
         var modalEl = buildModal(data);
