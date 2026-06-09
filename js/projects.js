@@ -86,7 +86,7 @@
     el.className = 'eg-card';
     el.innerHTML =
       '<div class="eg-row1">' +
-        '<h1 class="eg-title">' + esc(data.title) + '</h1>' +
+        '<h1 class="eg-title' + (data.titleSmall ? ' eg-title--sm' : '') + '">' + esc(data.title) + '</h1>' +
         '<a href="' + esc(data.mvpLink) + '" target="_blank" rel="noopener" class="eg-mvp-btn">' +
           '<span class="eg-mvp-arrow">↗</span> VIEW MVP' +
         '</a>' +

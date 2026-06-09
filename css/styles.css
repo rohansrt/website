@@ -304,6 +304,9 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;background:rgba(245,243,239,
   letter-spacing:-0.01em;
   min-width:0;
 }
+.eg-title--sm{
+  font-size:clamp(22px,2.4vw,38px);
+}
 .eg-mvp-btn{
   display:inline-flex;
   align-items:center;

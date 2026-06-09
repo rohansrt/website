@@ -1,0 +1,105 @@
+{
+  "id": "campaign",
+  "title": "CampAIgn",
+  "tagline": "The next global\ncelebrity will be\ncode born.",
+  "category": "Lease/Build AI Celebs.",
+  "heroImage": "assets/title icons/campaign-icon.png",
+  "mvpLink": "#",
+  "titleSmall": true,
+  "card": {
+    "strips": [
+      { "icon": "assets/icons/projects/ai-matching.svg",    "label": "CONTENTAI" },
+      { "icon": "assets/icons/projects/community-chat.svg", "label": "COMMUNITIES" },
+      { "icon": "assets/icons/projects/brand-growth.svg",   "label": "BRANDS" }
+    ]
+  },
+  "detail": {
+    "row1": [
+      {
+        "title": "CUSTOMER NEED",
+        "icon": "assets/icons/projects/customer-need.svg",
+        "content": {
+          "type": "text",
+          "text": "Brands rely on influencers and short-term campaigns that come with high costs, inconsistency, and risk. They need owned characters and communities that can engage audiences at scale—consistently and authentically."
+        }
+      },
+      {
+        "title": "TARGET USERS",
+        "icon": "assets/icons/projects/target-users.svg",
+        "content": {
+          "type": "groups",
+          "groups": [
+            { "title": "For Brands",      "items": ["Consumer brands", "Entertainment companies", "Gaming studios"] },
+            { "title": "For IP Creators", "items": ["Media companies", "Storytelling teams", "Character franchises"] }
+          ]
+        }
+      },
+      {
+        "title": "VALUE PROPOSITION",
+        "icon": "assets/icons/projects/value-proposition.svg",
+        "content": {
+          "type": "groups",
+          "groups": [
+            { "title": "For Brands",    "items": ["Create owned digital IP", "Build long-term communities", "Reduce influencer dependency"] },
+            { "title": "For Audiences", "items": ["Relatable characters", "Engaging stories", "Interactive experiences"] }
+          ]
+        }
+      },
+      {
+        "title": "HOW IT WORKS",
+        "icon": "assets/icons/projects/how-it-works.svg",
+        "noBorder": true,
+        "content": {
+          "type": "flow",
+          "steps": [
+            { "icon": "assets/icons/projects/expert-profile.svg",   "label": "Character Creation" },
+            { "icon": "assets/icons/projects/journey-discovery.svg","label": "World Building" },
+            { "icon": "assets/icons/projects/target-users.svg",     "label": "Audience Growth" },
+            { "icon": "assets/icons/projects/brand-growth.svg",     "label": "Brand Collaborations" }
+          ]
+        }
+      }
+    ],
+    "row2": {
+      "title": "MVP FEATURES",
+      "icon": "assets/icons/projects/mvp-features.svg",
+      "pills": ["Character Studio", "Personality Engine", "Story Universe Builder", "Social Content Pipeline", "Community Management", "Collaboration Marketplace"]
+    },
+    "row3": [
+      {
+        "title": "KEY STAKEHOLDERS",
+        "icon": "assets/icons/projects/key-stakeholders.svg",
+        "content": {
+          "type": "list",
+          "items": ["Brands", "Audiences", "IP Creators", "Platform"]
+        }
+      },
+      {
+        "title": "MY ROLE",
+        "icon": "assets/icons/projects/my-role.svg",
+        "content": {
+          "type": "list",
+          "items": ["Co-Founder", "Product vision", "Character ecosystem design", "AI workflow architecture", "Market validation"]
+        }
+      },
+      {
+        "title": "MARKET OPPORTUNITY",
+        "icon": "assets/icons/projects/market-opportunity.svg",
+        "content": {
+          "type": "text-chart",
+          "text": "The rise of virtual influencers and AI-generated content is creating a new category of digital IP. Brands are seeking owned audiences and memorable characters—CampAIgn builds and partners on both."
+        }
+      },
+      {
+        "title": "FOUNDER NOTE",
+        "icon": "assets/icons/projects/founder-note.svg",
+        "noBorder": true,
+        "isFounder": true,
+        "content": {
+          "type": "quote",
+          "text": "Every generation grows up with characters that shape culture. Mickey Mouse, Pokémon, Doraemon, Shaktimaan, Minions. CampAIgn explores what happens when the next iconic characters are born digital, powered by AI, and evolve alongside their communities."
+        }
+      }
+    ]
+  }
+}

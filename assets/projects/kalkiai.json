@@ -1,0 +1,104 @@
+{
+  "id": "kalkiai",
+  "title": "KalkiAI",
+  "tagline": "Will HMI Intelligence\nevolve into\nsuper wisdom?",
+  "category": "CONSCIOUSNESS OF AI WORLD.",
+  "heroImage": "assets/title icons/kalkiai-icon.png",
+  "mvpLink": "#",
+  "card": {
+    "strips": [
+      { "icon": "assets/icons/projects/ai-matching.svg",    "label": "HUMAN+AI" },
+      { "icon": "assets/icons/projects/mentorship.svg",     "label": "WISDOM" },
+      { "icon": "assets/icons/projects/community-chat.svg", "label": "ONENESS" }
+    ]
+  },
+  "detail": {
+    "row1": [
+      {
+        "title": "CUSTOMER NEED",
+        "icon": "assets/icons/projects/customer-need.svg",
+        "content": {
+          "type": "text",
+          "text": "Humanity faces information overload, fragmented knowledge, and ethical uncertainty in the age of AI. We need a higher intelligence that unites wisdom, compassion, and consciousness to guide the future."
+        }
+      },
+      {
+        "title": "TARGET USERS",
+        "icon": "assets/icons/projects/target-users.svg",
+        "content": {
+          "type": "groups",
+          "groups": [
+            { "title": "For Individuals",   "items": ["Seekers and lifelong learners", "Thought leaders and visionaries", "Conscious communities"] },
+            { "title": "For Organizations", "items": ["Educational institutions", "Research organizations", "Future-focused enterprises"] }
+          ]
+        }
+      },
+      {
+        "title": "VALUE PROPOSITION",
+        "icon": "assets/icons/projects/value-proposition.svg",
+        "content": {
+          "type": "groups",
+          "groups": [
+            { "title": "For Individuals",   "items": ["Access to higher wisdom", "Holistic knowledge synthesis", "Inner growth and clarity"] },
+            { "title": "For Organizations", "items": ["Collective intelligence", "Ethical AI alignment", "Long-term impact and legacy"] }
+          ]
+        }
+      },
+      {
+        "title": "HOW IT WORKS",
+        "icon": "assets/icons/projects/how-it-works.svg",
+        "noBorder": true,
+        "content": {
+          "type": "flow",
+          "steps": [
+            { "icon": "assets/icons/projects/customer-need.svg",    "label": "Awareness & Inquiry" },
+            { "icon": "assets/icons/projects/mentor-discovery.svg", "label": "Wisdom Synthesis" },
+            { "icon": "assets/icons/projects/ai-matching.svg",      "label": "Conscious Integration" },
+            { "icon": "assets/icons/projects/community-chat.svg",   "label": "OneNess & Impact" }
+          ]
+        }
+      }
+    ],
+    "row2": {
+      "title": "MVP FEATURES",
+      "icon": "assets/icons/projects/mvp-features.svg",
+      "pills": ["Wisdom Engine", "Consciousness Map", "Knowledge Synthesis", "Dialogue Studio", "Ethics & Alignment", "Collective Intelligence", "Global Wisdom Network"]
+    },
+    "row3": [
+      {
+        "title": "KEY STAKEHOLDERS",
+        "icon": "assets/icons/projects/key-stakeholders.svg",
+        "content": {
+          "type": "list",
+          "items": ["Individuals", "Communities", "Research Institutions", "Platforms & Ecosystem"]
+        }
+      },
+      {
+        "title": "MY ROLE",
+        "icon": "assets/icons/projects/my-role.svg",
+        "content": {
+          "type": "list",
+          "items": ["Founder & Vision Architect", "Product Strategy", "AI & Consciousness Design", "Ecosystem Building", "Partnerships & Growth"]
+        }
+      },
+      {
+        "title": "MARKET OPPORTUNITY",
+        "icon": "assets/icons/projects/market-opportunity.svg",
+        "content": {
+          "type": "text-chart",
+          "text": "The convergence of AI and human wisdom is the next frontier. The global AI market is projected to exceed $1.8T by 2030. The rise of conscious technology creates a vast opportunity for a platform that elevates collective wisdom."
+        }
+      },
+      {
+        "title": "FOUNDER NOTE",
+        "icon": "assets/icons/projects/founder-note.svg",
+        "noBorder": true,
+        "isFounder": true,
+        "content": {
+          "type": "quote",
+          "text": "The future is not just about smarter AI, but wiser consciousness. KalkiAI is our offering to the world—a space where human and AI evolve together for the highest good of all beings."
+        }
+      }
+    ]
+  }
+}

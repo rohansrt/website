@@ -2,8 +2,8 @@
   "self": [
     { "id": "expergo" },
     { "id": "gulliver" },
-    { "id": "campaign",  "placeholder": true, "name": "CampAIgn"   },
-    { "id": "kalkiai",   "placeholder": true, "name": "KalkiAI"    },
+    { "id": "campaign" },
+    { "id": "kalkiai" },
     { "id": "inlight" }
   ],
   "professional": [
