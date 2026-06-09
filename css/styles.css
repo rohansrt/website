@@ -40,6 +40,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;background:rgba(245,243,239,
 
 /* ── Typography ─────────────────────────────────────────────────────────── */
 .eyebrow{font-family:'DM Mono',monospace;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--navy);margin-bottom:12px}
+.eyebrow--section-title{font-size:13px;font-weight:700;letter-spacing:.25em;text-align:center;margin-bottom:24px}
 .section-title{font-family:'Cormorant Garamond',serif;font-size:clamp(32px,3.8vw,50px);font-weight:400;line-height:1.1;margin-bottom:40px;color:var(--text)}
 .section-title em{font-style:italic;color:var(--navy)}
 
@@ -126,7 +127,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;background:rgba(245,243,239,
 .tl-role{font-size:14px;font-weight:500;color:var(--text)}
 .tl-org{font-size:12px;color:var(--muted);margin-bottom:6px}
 .tl-impact{font-size:12px;color:var(--dim);line-height:1.6}
-.skill-cluster-name{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--navy);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border)}
+.skill-cluster-name{font-family:'DM Mono',monospace;font-size:9px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--navy);margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border)}
 .skill-list{display:flex;flex-direction:column;gap:7px}
 .skill-item{font-size:13px;color:var(--muted);display:flex;gap:8px;align-items:center}
 .skill-item::before{content:'—';color:var(--dim);font-size:10px;flex-shrink:0}
