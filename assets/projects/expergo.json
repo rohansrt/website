@@ -1,0 +1,104 @@
+{
+  "id": "expergo",
+  "title": "ExperGo",
+  "tagline": "Hard-earned wisdom\nshouldn't retire\nwith its owner.",
+  "category": "AI MATCHING WITH YOUTH",
+  "heroImage": "assets/images/projects/expergo/expergo-hero.png",
+  "mvpLink": "https://rsaraswat.wixsite.com/expergo",
+  "card": {
+    "strips": [
+      { "icon": "assets/icons/projects/mentorship.svg", "label": "MENTORSHIP" },
+      { "icon": "assets/icons/projects/ai-matching.svg", "label": "AI MATCHING" },
+      { "icon": "assets/icons/projects/trust-safety.svg", "label": "TRUST" }
+    ]
+  },
+  "detail": {
+    "row1": [
+      {
+        "title": "CUSTOMER NEED",
+        "icon": "assets/icons/projects/customer-need.svg",
+        "content": {
+          "type": "text",
+          "text": "Thousands of experienced professionals retire every year with decades of knowledge. Meanwhile students and young professionals struggle to access credible mentorship and career guidance."
+        }
+      },
+      {
+        "title": "TARGET USERS",
+        "icon": "assets/icons/projects/target-users.svg",
+        "content": {
+          "type": "groups",
+          "groups": [
+            { "title": "Retired Experts", "items": ["Former CXOs", "Industry veterans", "Functional heads"] },
+            { "title": "Young Talent", "items": ["Students", "Early professionals", "Career switchers"] }
+          ]
+        }
+      },
+      {
+        "title": "VALUE PROPOSITION",
+        "icon": "assets/icons/projects/value-proposition.svg",
+        "content": {
+          "type": "groups",
+          "groups": [
+            { "title": "For Experts", "items": ["Stay engaged", "Monetise expertise", "Create impact"] },
+            { "title": "For Talent", "items": ["Discover mentors", "Get relevant guidance", "Accelerate growth"] }
+          ]
+        }
+      },
+      {
+        "title": "HOW IT WORKS",
+        "icon": "assets/icons/projects/how-it-works.svg",
+        "noBorder": true,
+        "content": {
+          "type": "flow",
+          "steps": [
+            { "icon": "assets/icons/projects/expert-profile.svg", "label": "Expert Profile" },
+            { "icon": "assets/icons/projects/matching-engine.svg", "label": "AI Matching Engine" },
+            { "icon": "assets/icons/projects/mentor-discovery.svg", "label": "Mentor Discovery" },
+            { "icon": "assets/icons/projects/session-booking.svg", "label": "Session Booking" }
+          ]
+        }
+      }
+    ],
+    "row2": {
+      "title": "MVP FEATURES",
+      "icon": "assets/icons/projects/mvp-features.svg",
+      "pills": ["Expert Profiles", "AI Matching", "Session Booking", "Mentorship Tracks", "Ratings & Reviews", "Trust Layer"]
+    },
+    "row3": [
+      {
+        "title": "KEY STAKEHOLDERS",
+        "icon": "assets/icons/projects/key-stakeholders.svg",
+        "content": {
+          "type": "list",
+          "items": ["Experts", "Talent", "Institutions", "Platform"]
+        }
+      },
+      {
+        "title": "MY ROLE",
+        "icon": "assets/icons/projects/my-role.svg",
+        "content": {
+          "type": "list",
+          "items": ["Co-Founder", "Product strategy & validation", "MVP design", "AI matching architecture", "GTM exploration"]
+        }
+      },
+      {
+        "title": "MARKET OPPORTUNITY",
+        "icon": "assets/icons/projects/market-opportunity.svg",
+        "content": {
+          "type": "text-chart",
+          "text": "Global mentoring market is projected to reach $36B+ by 2030. Large, growing and under-digitised."
+        }
+      },
+      {
+        "title": "FOUNDER NOTE",
+        "icon": "assets/icons/projects/founder-note.svg",
+        "noBorder": true,
+        "isFounder": true,
+        "content": {
+          "type": "quote",
+          "text": "The hardest challenge wasn't matching people. It was building trust before the first conversation."
+        }
+      }
+    ]
+  }
+}

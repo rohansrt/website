@@ -1,0 +1,104 @@
+{
+  "id": "gulliver",
+  "title": "Gulliver",
+  "tagline": "What if the best\nparts of a place\naren't on the map?",
+  "category": "TRAVEL BEYOND ATTRACTIONS.",
+  "heroImage": "assets/title icons/gulliver-icon.png",
+  "mvpLink": "#",
+  "card": {
+    "strips": [
+      { "icon": "assets/icons/projects/local-experts.svg",        "label": "LOCALITES" },
+      { "icon": "assets/icons/projects/experience-journeys.svg",  "label": "EXPERIENCE" },
+      { "icon": "assets/icons/projects/community-chat.svg",       "label": "COMMUNITY" }
+    ]
+  },
+  "detail": {
+    "row1": [
+      {
+        "title": "CUSTOMER NEED",
+        "icon": "assets/icons/projects/customer-need.svg",
+        "content": {
+          "type": "text",
+          "text": "Travelers struggle to discover the real essence of a place. What they see online rarely reflects the local vibe, hidden gems, and personalized experiences they truly seek."
+        }
+      },
+      {
+        "title": "TARGET USERS",
+        "icon": "assets/icons/projects/target-users.svg",
+        "content": {
+          "type": "groups",
+          "groups": [
+            { "title": "Explorers",          "items": ["Solo travelers", "Backpackers", "Adventure seekers"] },
+            { "title": "Experience Seekers", "items": ["Families", "Couples", "Culture enthusiasts"] }
+          ]
+        }
+      },
+      {
+        "title": "VALUE PROPOSITION",
+        "icon": "assets/icons/projects/value-proposition.svg",
+        "content": {
+          "type": "groups",
+          "groups": [
+            { "title": "For Travelers", "items": ["Discover deeply", "Get local insights", "Plan with confidence"] },
+            { "title": "For Locals",    "items": ["Share knowledge", "Build community", "Earn through impact"] }
+          ]
+        }
+      },
+      {
+        "title": "HOW IT WORKS",
+        "icon": "assets/icons/projects/how-it-works.svg",
+        "noBorder": true,
+        "content": {
+          "type": "flow",
+          "steps": [
+            { "icon": "assets/icons/projects/destination-selection.svg",      "label": "Destination Selection" },
+            { "icon": "assets/icons/projects/journey-discovery.svg",          "label": "Experience Journey Discovery" },
+            { "icon": "assets/icons/projects/local-expert-matching.svg",      "label": "Local Expert Matching" },
+            { "icon": "assets/icons/projects/trip-planning.svg",              "label": "Confident Trip Planning" }
+          ]
+        }
+      }
+    ],
+    "row2": {
+      "title": "MVP FEATURES",
+      "icon": "assets/icons/projects/mvp-features.svg",
+      "pills": ["Destination Profiles", "Experience Cards", "Local Expert Network", "Community Chat", "Area Recommendations", "Curated Meetups"]
+    },
+    "row3": [
+      {
+        "title": "KEY STAKEHOLDERS",
+        "icon": "assets/icons/projects/key-stakeholders.svg",
+        "content": {
+          "type": "list",
+          "items": ["Travelers", "Local Experts", "Experience Partners", "Platform"]
+        }
+      },
+      {
+        "title": "MY ROLE",
+        "icon": "assets/icons/projects/my-role.svg",
+        "content": {
+          "type": "list",
+          "items": ["Founder", "Product strategy", "User journey design", "Community marketplace architecture", "GTM & ecosystem development"]
+        }
+      },
+      {
+        "title": "MARKET OPPORTUNITY",
+        "icon": "assets/icons/projects/market-opportunity.svg",
+        "content": {
+          "type": "text-chart",
+          "text": "The global travel industry exceeds $10T+, yet trip planning remains fragmented and transactional."
+        }
+      },
+      {
+        "title": "FOUNDER NOTE",
+        "icon": "assets/icons/projects/founder-note.svg",
+        "noBorder": true,
+        "isFounder": true,
+        "content": {
+          "type": "quote",
+          "text": "People rarely remember a destination for its attractions. They remember the hidden café a local suggested, the sunset spot no guidebook mentioned, and the conversations that made the place feel alive."
+        }
+      }
+    ]
+  }
+}
