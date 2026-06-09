@@ -5,7 +5,6 @@
   "category": "Lease/Build AI Celebs.",
   "heroImage": "assets/title icons/campaign-icon.png",
   "mvpLink": "#",
-  "titleSmall": true,
   "card": {
     "strips": [
       { "icon": "assets/icons/projects/ai-matching.svg",    "label": "CONTENTAI" },

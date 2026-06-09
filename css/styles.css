@@ -297,7 +297,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;background:rgba(245,243,239,
 }
 .eg-title{
   font-family:'Cormorant Garamond',serif;
-  font-size:clamp(28px,3vw,48px);
+  font-size:clamp(23.8px,2.55vw,40.8px);
   font-weight:400;
   color:#0F2454;
   line-height:0.95;
