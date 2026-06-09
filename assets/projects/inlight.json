@@ -1,0 +1,104 @@
+{
+  "id": "inlight",
+  "title": "InLight",
+  "tagline": "What if attention\nwasn't trapped\ninside phones?",
+  "category": "PHYSICAL SPACE BASED DISCOVERY.",
+  "heroImage": "assets/title icons/inlight-icon.png",
+  "mvpLink": "#",
+  "card": {
+    "strips": [
+      { "icon": "assets/icons/projects/marketing.svg",    "label": "MARKETING" },
+      { "icon": "assets/icons/projects/destination-selection.svg", "label": "VENUE USE" },
+      { "icon": "assets/icons/projects/brand-growth.svg", "label": "BRAND GROWTH" }
+    ]
+  },
+  "detail": {
+    "row1": [
+      {
+        "title": "CUSTOMER NEED",
+        "icon": "assets/icons/projects/customer-need.svg",
+        "content": {
+          "type": "text",
+          "text": "Brands compete heavily for attention on digital platforms. People, however, spend hours every day in physical spaces like cafés, restaurants, cabs, trains, and waiting areas—attention that remains largely untapped."
+        }
+      },
+      {
+        "title": "TARGET USERS",
+        "icon": "assets/icons/projects/target-users.svg",
+        "content": {
+          "type": "groups",
+          "groups": [
+            { "title": "Brands",         "items": ["Startups", "Consumer brands", "Local businesses"] },
+            { "title": "Venue Partners", "items": ["Cafés", "Restaurants", "Mobility operators"] }
+          ]
+        }
+      },
+      {
+        "title": "VALUE PROPOSITION",
+        "icon": "assets/icons/projects/value-proposition.svg",
+        "content": {
+          "type": "groups",
+          "groups": [
+            { "title": "For Brands",  "items": ["Reach customers offline", "Capture focused attention", "Improve product discovery"] },
+            { "title": "For Venues",  "items": ["Generate revenue", "Enhance engagement", "Offer relevant content"] }
+          ]
+        }
+      },
+      {
+        "title": "HOW IT WORKS",
+        "icon": "assets/icons/projects/how-it-works.svg",
+        "noBorder": true,
+        "content": {
+          "type": "flow",
+          "steps": [
+            { "icon": "assets/icons/projects/venue-partnership.svg",    "label": "Venue Partnership" },
+            { "icon": "assets/icons/projects/inlight-installation.svg", "label": "InLight Installation" },
+            { "icon": "assets/icons/projects/marketing.svg",            "label": "Brand Campaign Deployment" },
+            { "icon": "assets/icons/projects/target-users.svg",         "label": "Customer Discovery" }
+          ]
+        }
+      }
+    ],
+    "row2": {
+      "title": "MVP FEATURES",
+      "icon": "assets/icons/projects/mvp-features.svg",
+      "pills": ["Smart Display Units", "Campaign Manager", "Venue Marketplace", "QR Engagement", "Audience Analytics", "Regional Targeting"]
+    },
+    "row3": [
+      {
+        "title": "KEY STAKEHOLDERS",
+        "icon": "assets/icons/projects/key-stakeholders.svg",
+        "content": {
+          "type": "list",
+          "items": ["Brands", "Venue Partners", "Customers", "Platform"]
+        }
+      },
+      {
+        "title": "MY ROLE",
+        "icon": "assets/icons/projects/my-role.svg",
+        "content": {
+          "type": "list",
+          "items": ["Founder", "Business model design", "Network strategy", "GTM planning", "Ecosystem architecture"]
+        }
+      },
+      {
+        "title": "MARKET OPPORTUNITY",
+        "icon": "assets/icons/projects/market-opportunity.svg",
+        "content": {
+          "type": "text-chart",
+          "text": "India's advertising market exceeds $15B and continues to shift toward measurable engagement. Physical attention spaces remain fragmented, creating opportunities for a scalable offline discovery network."
+        }
+      },
+      {
+        "title": "FOUNDER NOTE",
+        "icon": "assets/icons/projects/founder-note.svg",
+        "noBorder": true,
+        "isFounder": true,
+        "content": {
+          "type": "quote",
+          "text": "Every restaurant table, cab ride, train journey, and café visit contains something increasingly rare today—undivided attention. InLight transforms these overlooked moments into opportunities for discovery."
+        }
+      }
+    ]
+  }
+}

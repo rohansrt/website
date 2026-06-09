@@ -4,7 +4,7 @@
     { "id": "gulliver" },
     { "id": "campaign",  "placeholder": true, "name": "CampAIgn"   },
     { "id": "kalkiai",   "placeholder": true, "name": "KalkiAI"    },
-    { "id": "inlight",   "placeholder": true, "name": "InLight"    }
+    { "id": "inlight" }
   ],
   "professional": [
     { "id": "jlr-1",    "placeholder": true, "name": "JLR — 1"    },

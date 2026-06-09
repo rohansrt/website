@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#1a2e52" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Megaphone body -->
+  <path d="M3 9v6h4l6 4V5L7 9H3z"/>
+  <!-- Horn flare -->
+  <path d="M19 8c1.5 1.5 1.5 6.5 0 8"/>
+  <path d="M16 9.5c.8.8.8 4.2 0 5"/>
+</svg>
