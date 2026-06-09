@@ -1000,12 +1000,22 @@ footer{padding:24px 56px;border-top:1px solid var(--border);background:var(--sur
   .pinned-grid{grid-template-columns:1fr}
   footer{flex-direction:column;gap:6px;text-align:center;padding:20px}
   .proj-cards-row{grid-template-columns:1fr}
+  .about-hero{flex-direction:column;align-items:center}
+  .about-photo-circle{margin-bottom:8px}
+  .about-hero .flex-1{width:100%}
 }
 @media(max-width:680px){
   .proj-tab{font-size:10px;padding:0 20px 12px 0}
   .blg-overlay{padding:0;align-items:flex-end}
   .blg-modal{border-radius:12px 12px 0 0;padding:36px 24px 48px;max-height:90vh;overflow-y:auto}
   .blg-title{font-size:26px}
+}
+@media(max-width:480px){
+  .nav-tab{padding:0 9px}
+  .hero{min-height:auto;padding-bottom:40px}
+  .hero-right{display:flex;order:-1;min-height:auto;height:auto;padding:32px 0 20px}
+  .hero-left{padding:0 0 8px}
+  .hero-photo{height:auto;width:70%;max-width:240px}
 }
 
 /* ── Inline-style helper classes ───────────────────────────────────────────────────── */
