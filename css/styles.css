@@ -29,7 +29,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;background:rgba(245,243,239,
 .nav-tabs{display:flex;align-items:stretch;justify-content:center;padding:0 56px;height:42px;gap:0}
 .nav-tab{display:flex;align-items:center;padding:0 20px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);cursor:pointer;border:none;background:none;font-family:'Outfit',sans-serif;font-weight:600;border-bottom:2px solid transparent;position:relative;top:2px;transition:color .2s,border-color .2s;white-space:nowrap}
 .nav-tab:hover{color:var(--navy)}
-.nav-tab.active{color:var(--navy);border-bottom-color:var(--navy);font-weight:700}
+.nav-tab.active{color:var(--navy);border-bottom-color:var(--navy);font-weight:700;background:rgba(15,36,84,0.06)}
 
 /* ── Pages ─────────────────────────────────────────────────────────────── */
 .page{display:none;min-height:100vh;padding-top:100px}
@@ -1017,6 +1017,25 @@ footer{padding:24px 56px;border-top:1px solid var(--border);background:var(--sur
   .hero-right{display:flex;order:-1;min-height:auto;height:auto;padding:32px 0 20px}
   .hero-left{padding:0 0 8px}
   .hero-photo{height:auto;width:70%;max-width:240px}
+}
+
+/* ── Active nav tab: mobile pill ── */
+@media(max-width:768px){
+  .nav-tab.active{
+    background:var(--navy);
+    color:#FBFAF8;
+    border-bottom-color:transparent;
+    border-radius:6px;
+  }
+}
+
+/* ── Project card typography: mobile readability ── */
+@media(max-width:768px){
+  .eg-title{font-size:24px}
+  .eg-tagline{font-size:11px}
+  .eg-category{font-size:9px}
+  .eg-pro-overview-text{font-size:12px}
+  .eg-strip-label{font-size:8px}
 }
 
 /* ── Inline-style helper classes ───────────────────────────────────────────────────── */
