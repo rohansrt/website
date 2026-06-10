@@ -954,7 +954,10 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;background:rgba(245,243,239,
 .contact-links{display:flex;flex-direction:column;gap:12px}
 .contact-link{display:flex;align-items:center;gap:12px;font-size:13px;color:var(--muted);transition:color .2s}
 .contact-link:hover{color:var(--navy)}
-.contact-icon{width:34px;height:34px;border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:13px;border-radius:3px;flex-shrink:0}
+.contact-icon{width:40px;height:40px;border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:18px;border-radius:3px;flex-shrink:0}
+.contact-link:nth-child(1) .contact-icon{color:#e04a2f;border-color:#e04a2f44;font-size:36px}
+.contact-link:nth-child(2) .contact-icon{color:#0077b5;border-color:#0077b544}
+.contact-link:nth-child(3) .contact-icon{color:#2d9e6b;border-color:#2d9e6b44}
 .contact-form{background:var(--surface);border:1px solid var(--border);padding:28px;border-radius:8px;box-shadow:0 2px 20px rgba(44,74,110,.06)}
 .form-title{font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:400;margin-bottom:20px;color:var(--text)}
 .form-group{margin-bottom:14px}

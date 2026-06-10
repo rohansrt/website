@@ -39,17 +39,21 @@
         <div>
           <p class="contact-body">I'm actively exploring <strong>EIR, CEO's Office, Founder's Office</strong> and <strong>0→1 PM</strong> roles. If you're building something ambitious and need an operator who bridges technology and business, I'd love to talk.</p>
           <div class="contact-links">
-            <a href="mailto:rohansrt5@gmail.com" class="contact-link"><span class="contact-icon">✉</span>rohansrt5@gmail.com</a>
+            <a href="mailto:rohansrt5@gmail.com" class="contact-link"><span class="contact-icon">✉</span>rohansrt5@gmail.com / rohan_saraswat2026@pgp.isb.edu</a>
             <a href="https://linkedin.com/in/rohansrt" target="_blank" class="contact-link"><span class="contact-icon">in</span>linkedin.com/in/rohansrt</a>
             <a href="tel:+918979484758" class="contact-link"><span class="contact-icon">☎</span>+91 897 948 4758</a>
           </div>
         </div>
         <div class="contact-form">
           <div class="form-title">Send a message</div>
-          <div class="form-group"><label class="form-label">Your name</label><input type="text" class="form-input" placeholder="Jane Smith"/></div>
-          <div class="form-group"><label class="form-label">Email</label><input type="email" class="form-input" placeholder="jane@company.com"/></div>
-          <div class="form-group"><label class="form-label">What's this about?</label><textarea class="form-input" placeholder="EIR opportunity, or just want to chat about product..."></textarea></div>
-          <button class="form-submit" onclick="this.textContent='Sent ✓';this.style.background='#2d6a4f'">Send Message</button>
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="a8c02efa-1925-42f5-9fc1-88210848b2ce"/>
+            <input type="hidden" name="redirect" value="false"/>
+            <div class="form-group"><label class="form-label">Your name</label><input type="text" name="name" class="form-input" placeholder="Jane Smith" required/></div>
+            <div class="form-group"><label class="form-label">Email</label><input type="email" name="email" class="form-input" placeholder="jane@company.com" required/></div>
+            <div class="form-group"><label class="form-label">What's this about?</label><textarea name="message" class="form-input" placeholder="EIR opportunity, or just want to chat about product..." required></textarea></div>
+            <button type="submit" class="form-submit">Send Message</button>
+          </form>
         </div>
       </div>
     </div>
@@ -62,5 +66,6 @@
 </footer>
 
 <script src="js/app.js"></script>
+
 </body>
 </html>
