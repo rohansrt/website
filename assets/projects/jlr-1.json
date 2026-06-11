@@ -1,0 +1,104 @@
+{
+  "id": "jlr-1",
+  "projectType": "professional",
+  "title": "JLR HVAC Team Setup",
+  "tagline": "Built JLR India's climate engineering capability by defining a 5-year roadmap, creating supplier & academic ecosystems, securing IITs talent & UK funding.",
+  "category": "0 → 1 TEAM CAPABILITY BUILDING",
+  "heroImage": "assets/title icons/JLR-1-icon.png",
+  "card": {
+    "strips": [
+      { "icon": "assets/icons/projects/brand-growth.svg",  "label": "STRATEGY"   },
+      { "icon": "assets/icons/projects/mentorship.svg",    "label": "TALENT"     },
+      { "icon": "assets/icons/projects/community-chat.svg","label": "ECOSYSTEM"  }
+    ]
+  },
+  "detail": {
+    "row1": [
+      {
+        "title": "CUSTOMER NEED",
+        "icon": "assets/icons/projects/customer-need.svg",
+        "content": {
+          "type": "text",
+          "text": "JLR needed to expand climate engineering capabilities beyond the UK to support future vehicle programs, reduce development costs, and build long-term access to engineering talent."
+        }
+      },
+      {
+        "title": "TARGET USERS",
+        "icon": "assets/icons/projects/target-users.svg",
+        "content": {
+          "type": "groups",
+          "groups": [
+            { "title": "Primary",   "items": ["Global Climate Teams", "Program Leadership", "Vehicle Programs"] },
+            { "title": "Secondary", "items": ["Suppliers", "Academic Partners", "Engineering Talent"] }
+          ]
+        }
+      },
+      {
+        "title": "VALUE PROPOSITION",
+        "icon": "assets/icons/projects/value-proposition.svg",
+        "content": {
+          "type": "groups",
+          "groups": [
+            { "title": "For JLR",              "items": ["Scalable engineering capability", "Reduced development cost", "Faster execution capacity"] },
+            { "title": "For India Operations", "items": ["Talent ecosystem creation", "Supplier ecosystem growth", "Long-term strategic relevance"] }
+          ]
+        }
+      },
+      {
+        "title": "HOW IT WORKS",
+        "icon": "assets/icons/projects/how-it-works.svg",
+        "noBorder": true,
+        "content": {
+          "type": "flow",
+          "steps": [
+            { "icon": "assets/icons/projects/my-role.svg",              "label": "Capability Assessment"        },
+            { "icon": "assets/icons/projects/journey-discovery.svg",    "label": "Roadmap Definition"           },
+            { "icon": "assets/icons/projects/mentorship.svg",           "label": "Talent & Supplier Buildout"   },
+            { "icon": "assets/icons/projects/experience-journeys.svg",  "label": "Program Delivery Integration" }
+          ]
+        }
+      }
+    ],
+    "row2": {
+      "title": "KEY WORKSTREAMS",
+      "icon": "assets/icons/projects/mvp-features.svg",
+      "pills": ["Business Case Development", "Ecosystem Mapping", "Talent Strategy", "Stakeholder Alignment", "Program Execution"]
+    },
+    "row3": [
+      {
+        "title": "KEY STAKEHOLDERS",
+        "icon": "assets/icons/projects/key-stakeholders.svg",
+        "content": {
+          "type": "list",
+          "items": ["UK Climate Leadership", "India GCC Leadership", "Suppliers", "Tata Ecosystem", "Academic Institutions"]
+        }
+      },
+      {
+        "title": "METHODOLOGY",
+        "icon": "assets/icons/projects/methodology.svg",
+        "content": {
+          "type": "list",
+          "items": ["Business Case Development", "Ecosystem Mapping", "Talent Strategy", "Stakeholder Alignment", "Program Execution"]
+        }
+      },
+      {
+        "title": "BUSINESS IMPACT",
+        "icon": "assets/icons/projects/market-opportunity.svg",
+        "content": {
+          "type": "text-chart",
+          "text": "Built 8+ member offshore team, managed 10+ suppliers, supported 100+ requirements, secured ₹5 Cr investment, and reduced R&D costs by 60% through Indian partnerships."
+        }
+      },
+      {
+        "title": "KEY LEARNINGS",
+        "icon": "assets/icons/projects/founder-note.svg",
+        "noBorder": true,
+        "isFounder": true,
+        "content": {
+          "type": "quote",
+          "text": "Building capability requires more than hiring. Sustainable scale comes from aligning talent, suppliers, leadership, and execution systems into a shared operating model."
+        }
+      }
+    ]
+  }
+}

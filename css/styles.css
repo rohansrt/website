@@ -476,6 +476,15 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;background:rgba(245,243,239,
 .eg-card--pro .eg-row1 {
   align-items: flex-start;
 }
+.eg-card--pro .eg-title {
+  font-size: clamp(15px, 1.63vw, 26px);
+}
+.eg-card--pro[data-id="jlr-1"] .eg-pro-hero {
+  max-height: 50px;
+  margin-top: 0;
+  transform: scale(1.5);
+  transform-origin: center center;
+}
 .eg-card--pro[data-id="paypal-1"] {
   padding-top: 11px;
 }
@@ -1035,6 +1044,7 @@ footer{padding:24px 56px;border-top:1px solid var(--border);background:var(--sur
 /* ── Project card typography: mobile readability ── */
 @media(max-width:768px){
   .eg-title{font-size:24px}
+  .eg-card--pro .eg-title{font-size:19px}
   .eg-tagline{font-size:11px}
   .eg-category{font-size:9px}
   .eg-pro-overview-text{font-size:12px}
