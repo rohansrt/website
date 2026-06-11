@@ -8,9 +8,9 @@
   ],
   "professional": [
     { "id": "jlr-1" },
-    { "id": "jlr-2",    "placeholder": true, "name": "JLR — 2"    },
-    { "id": "jlr-3",    "placeholder": true, "name": "JLR — 3"    },
-    { "id": "jlr-4",    "placeholder": true, "name": "JLR — 4"    },
+    { "id": "jlr-2" },
+    { "id": "jlr-3" },
+    { "id": "jlr-4" },
     { "id": "paypal-1" }
   ]
 }

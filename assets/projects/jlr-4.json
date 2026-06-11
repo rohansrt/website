@@ -1,0 +1,105 @@
+{
+  "id": "jlr-4",
+  "projectType": "professional",
+  "title": "UK OnSite EV Innovation",
+  "tagline": "Delivered JLR's sustainable EV refrigerant POC from 0 to 1 at UK Gaydon with 25% comfort uplift, £100K+ saved, & regulatory compliance for EU/USA market.",
+  "category": "0→1 SUSTAINABLE EV POC",
+  "heroImage": "assets/title icons/JLR-4-icon.png",
+  "card": {
+    "strips": [
+      { "icon": "assets/icons/projects/mvp-features.svg",        "label": "POC"        },
+      { "icon": "assets/icons/projects/how-it-works.svg",        "label": "TESTING"    },
+      { "icon": "assets/icons/projects/brand-growth.svg",        "label": "INNOVATION" }
+    ]
+  },
+  "detail": {
+    "row1": [
+      {
+        "title": "BUSINESS NEED",
+        "icon": "assets/icons/projects/customer-need.svg",
+        "content": {
+          "type": "text",
+          "text": "JLR needed in-house capability to validate sustainable refrigerant and next-gen EV technologies for 2030+ cars, reduce reliance on expensive supplier quotes (£180K+), and secure regulatory market access in the EU and USA — with capability and IP subsequently transferred back to the India GCC."
+        }
+      },
+      {
+        "title": "TARGET USERS",
+        "icon": "assets/icons/projects/target-users.svg",
+        "content": {
+          "type": "groups",
+          "groups": [
+            { "title": "Primary",   "items": ["UK Climate Engineering Teams", "Vehicle Program Leadership", "Supplier & Procurement Teams"] },
+            { "title": "Secondary", "items": ["India GCC Team", "Regulatory & Compliance Teams"] }
+          ]
+        }
+      },
+      {
+        "title": "VALUE PROPOSITION",
+        "icon": "assets/icons/projects/value-proposition.svg",
+        "content": {
+          "type": "groups",
+          "groups": [
+            { "title": "For JLR",       "items": ["£100K+ cost saving vs. supplier quote", "EU/USA regulatory market access secured", "In-house IP and test capability built", "25% improvement in Time to Comfort"] },
+            { "title": "For India GCC", "items": ["Direct capability & process transfer", "First-hand exposure to UK engineering methods"] }
+          ]
+        }
+      },
+      {
+        "title": "HOW IT WORKS",
+        "icon": "assets/icons/projects/how-it-works.svg",
+        "noBorder": true,
+        "content": {
+          "type": "flow",
+          "steps": [
+            { "icon": "assets/icons/projects/my-role.svg",             "label": "Selection & UK Onboarding"     },
+            { "icon": "assets/icons/projects/journey-discovery.svg",   "label": "Ideation & MVP Roadmapping"    },
+            { "icon": "assets/icons/projects/how-it-works.svg",        "label": "Prototype Build & A/B Testing" },
+            { "icon": "assets/icons/projects/market-opportunity.svg",  "label": "POC Validation & Results"      },
+            { "icon": "assets/icons/projects/brand-growth.svg",        "label": "Capability Transfer to India"  }
+          ]
+        }
+      }
+    ],
+    "row2": {
+      "title": "KEY WORKSTREAMS",
+      "icon": "assets/icons/projects/mvp-features.svg",
+      "pills": ["Sustainable Refrigerant POC", "Solar Roof Integration", "MVP Roadmapping", "A/B Testing & Customer Interviews", "Supplier Cost Optimisation", "Capability Transfer"]
+    },
+    "row3": [
+      {
+        "title": "KEY STAKEHOLDERS",
+        "icon": "assets/icons/projects/key-stakeholders.svg",
+        "content": {
+          "type": "list",
+          "items": ["UK Climate Engineering Leadership", "Vehicle Program Teams", "Supplier & Procurement Teams", "Regulatory & Compliance Teams", "India GCC Leadership"]
+        }
+      },
+      {
+        "title": "METHODOLOGY",
+        "icon": "assets/icons/projects/methodology.svg",
+        "content": {
+          "type": "list",
+          "items": ["0-to-1 POC Development", "A/B Testing", "Customer Interviews (50+)", "First Principles Engineering", "Supplier Negotiation & Cost Analysis"]
+        }
+      },
+      {
+        "title": "BUSINESS IMPACT",
+        "icon": "assets/icons/projects/market-opportunity.svg",
+        "content": {
+          "type": "text-chart",
+          "text": "£100K+ saved vs. £180K supplier quote, 25% improvement in 'Time to Comfort' (Lvl-1 metric), ~9% battery charge gain via Solar Roof integration (+1500 km annual range), EU/USA market access secured for 2030+ cars, and in-house IP & capability transferred to India."
+        }
+      },
+      {
+        "title": "KEY LEARNINGS",
+        "icon": "assets/icons/projects/founder-note.svg",
+        "noBorder": true,
+        "isFounder": true,
+        "content": {
+          "type": "quote",
+          "text": "Building from zero in an unfamiliar environment forces clarity and resourcefulness. The £100K+ saving wasn't just a cost win — it proved that ownership and hands-on execution beat outsourcing when the stakes are high and capability is built to last."
+        }
+      }
+    ]
+  }
+}

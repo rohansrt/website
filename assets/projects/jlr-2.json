@@ -1,0 +1,105 @@
+{
+  "id": "jlr-2",
+  "projectType": "professional",
+  "title": "EV Program Architecture",
+  "tagline": "Architected JLR's Nextgen EV HVAC platform driving 8% energy efficiency, 10+ AI/ML features, and scalable delivery across 200k+ vehicles and 100+ markets.",
+  "category": "SCALABLE EV PLATFORM DEFINED",
+  "heroImage": "assets/title icons/JLR-2-icon.png",
+  "card": {
+    "strips": [
+      { "icon": "assets/icons/projects/brand-growth.svg",      "label": "PLATFORM" },
+      { "icon": "assets/icons/projects/journey-discovery.svg", "label": "ROADMAP"  },
+      { "icon": "assets/icons/projects/ai-matching.svg",       "label": "AI/ML"    }
+    ]
+  },
+  "detail": {
+    "row1": [
+      {
+        "title": "CUSTOMER NEED",
+        "icon": "assets/icons/projects/customer-need.svg",
+        "content": {
+          "type": "text",
+          "text": "JLR needed a future-ready, scalable HVAC platform that delivers superior in-car comfort, reduces energy consumption to extend driving range, and supports rapid feature innovation across global markets."
+        }
+      },
+      {
+        "title": "TARGET USERS",
+        "icon": "assets/icons/projects/target-users.svg",
+        "content": {
+          "type": "groups",
+          "groups": [
+            { "title": "Primary",   "items": ["Vehicle Engineering Teams", "Program Management", "Software & Controls Teams", "Manufacturing Teams"] },
+            { "title": "Secondary", "items": ["End Customers", "Dealerships & Service Teams"] }
+          ]
+        }
+      },
+      {
+        "title": "VALUE PROPOSITION",
+        "icon": "assets/icons/projects/value-proposition.svg",
+        "content": {
+          "type": "groups",
+          "groups": [
+            { "title": "For JLR",           "items": ["Scalable platform architecture", "8% improvement in energy efficiency", "Faster time-to-market", "Cost and complexity optimization"] },
+            { "title": "For End Customers", "items": ["Personalized comfort via AI/ML", "Intelligent climate control", "Proactive failure alerts (noise-based ML)", "Enhanced in-car experience"] }
+          ]
+        }
+      },
+      {
+        "title": "HOW IT WORKS",
+        "icon": "assets/icons/projects/how-it-works.svg",
+        "noBorder": true,
+        "content": {
+          "type": "flow",
+          "steps": [
+            { "icon": "assets/icons/projects/customer-need.svg",       "label": "Market & User Insight"              },
+            { "icon": "assets/icons/projects/journey-discovery.svg",   "label": "Platform Architecture (System V)"   },
+            { "icon": "assets/icons/projects/how-it-works.svg",        "label": "First Principles Design & MPC"      },
+            { "icon": "assets/icons/projects/ai-matching.svg",         "label": "AI/ML & Predictive Feature Build"   },
+            { "icon": "assets/icons/projects/brand-growth.svg",        "label": "Global Integration & Deployment"    }
+          ]
+        }
+      }
+    ],
+    "row2": {
+      "title": "KEY WORKSTREAMS",
+      "icon": "assets/icons/projects/mvp-features.svg",
+      "pills": ["Platform Architecture (System V)", "AI/ML Feature Development", "Energy Efficiency & MPC", "Predictive Failure Detection", "Global Deployment"]
+    },
+    "row3": [
+      {
+        "title": "KEY STAKEHOLDERS",
+        "icon": "assets/icons/projects/key-stakeholders.svg",
+        "content": {
+          "type": "list",
+          "items": ["Global Climate Leadership", "Vehicle Program Teams", "Software & AI Teams", "Suppliers (Denso & others)", "Manufacturing & Quality Teams"]
+        }
+      },
+      {
+        "title": "METHODOLOGY",
+        "icon": "assets/icons/projects/methodology.svg",
+        "content": {
+          "type": "list",
+          "items": ["Systems Engineering (System V)", "First Principles Design Optimization", "Model Predictive Control (MPC)", "Agile Delivery (Scrum/JIRA)", "Cloud Analytics & Data Pipelines"]
+        }
+      },
+      {
+        "title": "BUSINESS IMPACT",
+        "icon": "assets/icons/projects/market-opportunity.svg",
+        "content": {
+          "type": "text-chart",
+          "text": "Roadmap for 200k+ vehicles across 100+ markets; 8% energy efficiency gain via first principles design; 25+ operation modes via MPC; 10+ AI/ML personalization features via cloud pipelines; ML-based failure prediction using live noise pattern data; supported £400M+ Denso system sourcing."
+        }
+      },
+      {
+        "title": "KEY LEARNINGS",
+        "icon": "assets/icons/projects/founder-note.svg",
+        "noBorder": true,
+        "isFounder": true,
+        "content": {
+          "type": "quote",
+          "text": "Platform thinking and early cross-functional alignment are key to delivering scalable, high-impact products that create value for both business and customers."
+        }
+      }
+    ]
+  }
+}

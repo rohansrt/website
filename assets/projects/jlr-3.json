@@ -1,0 +1,105 @@
+{
+  "id": "jlr-3",
+  "projectType": "professional",
+  "title": "Digital HVAC Transformation",
+  "tagline": "Pioneered MBSE, CATIA & JLR's first BCG Agile Scrum Pilot transforming how 500+ Powertrain & HVAC engineers work saving £900K & 2k+ manhours annually.",
+  "category": "30% TEAM OUTPUT, £900K SAVED",
+  "heroImage": "assets/title icons/JLR-3-icon.png",
+  "card": {
+    "strips": [
+      { "icon": "assets/icons/projects/brand-growth.svg",        "label": "MBSE"      },
+      { "icon": "assets/icons/projects/how-it-works.svg",        "label": "AGILE"     },
+      { "icon": "assets/icons/projects/market-opportunity.svg",  "label": "ANALYTICS" }
+    ]
+  },
+  "detail": {
+    "row1": [
+      {
+        "title": "CUSTOMER NEED",
+        "icon": "assets/icons/projects/customer-need.svg",
+        "content": {
+          "type": "text",
+          "text": "JLR's HVAC engineering relied on legacy IBM toolsets and fragmented workflows, making it impossible to manage 10k+ requirements at scale, standardize processes across global teams, or make data-driven decisions at speed. A ground-up transformation initiative was needed — spanning toolsets, methodology, and culture."
+        }
+      },
+      {
+        "title": "TARGET USERS",
+        "icon": "assets/icons/projects/target-users.svg",
+        "content": {
+          "type": "groups",
+          "groups": [
+            { "title": "Primary",   "items": ["10+ UK HVAC Engineering Teams (500+ members)", "Systems Engineering Teams", "Program & Project Managers"] },
+            { "title": "Secondary", "items": ["CXO & Senior Leadership", "Supplier Teams", "120+ Analytics Tool Users"] }
+          ]
+        }
+      },
+      {
+        "title": "VALUE PROPOSITION",
+        "icon": "assets/icons/projects/value-proposition.svg",
+        "content": {
+          "type": "groups",
+          "groups": [
+            { "title": "For JLR",              "items": ["2k+ manhours saved annually", "£900K cost saved across 30k+ vehicles", "+30% team output via Agile Pilot", "MBSE & CATIA scaled to 500+ engineers", "50% reduction in misplacement errors"] },
+            { "title": "For Engineering Teams", "items": ["Modern Dassault/CATIA toolset", "Agile workflows with Jira & Confluence", "Real-time data analytics for 120+ users"] }
+          ]
+        }
+      },
+      {
+        "title": "HOW IT WORKS",
+        "icon": "assets/icons/projects/how-it-works.svg",
+        "noBorder": true,
+        "content": {
+          "type": "flow",
+          "steps": [
+            { "icon": "assets/icons/projects/customer-need.svg",      "label": "Legacy IBM Toolset Assessment"        },
+            { "icon": "assets/icons/projects/how-it-works.svg",       "label": "MBSE & CATIA Migration (Dassault)"    },
+            { "icon": "assets/icons/projects/journey-discovery.svg",  "label": "BCG Agile Pilot — First Scrum Master" },
+            { "icon": "assets/icons/projects/market-opportunity.svg", "label": "Analytics Tool & Cost Optimisation"   },
+            { "icon": "assets/icons/projects/brand-growth.svg",       "label": "Scale Across 10+ UK Teams"            }
+          ]
+        }
+      }
+    ],
+    "row2": {
+      "title": "KEY WORKSTREAMS",
+      "icon": "assets/icons/projects/mvp-features.svg",
+      "pills": ["MBSE & CATIA Adoption", "IBM→Dassault Migration", "BCG Agile Scrum Pilot", "Post-Processing Analytics Tool", "Supply Chain Optimisation", "CXO Demo Enablement"]
+    },
+    "row3": [
+      {
+        "title": "KEY STAKEHOLDERS",
+        "icon": "assets/icons/projects/key-stakeholders.svg",
+        "content": {
+          "type": "list",
+          "items": ["10+ UK HVAC Engineering Teams (500+ members)", "BCG Agile Consultants", "CXO & Senior Leadership", "Program Management", "Supplier Teams"]
+        }
+      },
+      {
+        "title": "METHODOLOGY",
+        "icon": "assets/icons/projects/methodology.svg",
+        "content": {
+          "type": "list",
+          "items": ["MBSE with MSOSA & CATIA (Dassault)", "IBM→Dassault Toolset Migration", "Agile Scrum — Epics, Stories & Sprints (Jira, Confluence)", "Financial & Market Analytics", "Root Cause Analysis"]
+        }
+      },
+      {
+        "title": "BUSINESS IMPACT",
+        "icon": "assets/icons/projects/market-opportunity.svg",
+        "content": {
+          "type": "text-chart",
+          "text": "2k+ manhours saved annually via IBM→Dassault migration, £900K cost saved across 30k+ vehicles via market analytics, +30% team output as JLR's first Scrum Master (BCG Agile Pilot), MSOSA & CATIA scaled across 10+ UK teams (500+ members), 50% reduction in misplacement errors, and post-processing analytics tool deployed to 120+ users across 30+ CXO-level showcases."
+        }
+      },
+      {
+        "title": "KEY LEARNINGS",
+        "icon": "assets/icons/projects/founder-note.svg",
+        "noBorder": true,
+        "isFounder": true,
+        "content": {
+          "type": "quote",
+          "text": "Being first — the first Scrum Master, the first to migrate toolsets, the first to pilot MBSE — means absorbing ambiguity so others don't have to. The real impact isn't the tool or the framework; it's the cultural shift you create when 500 engineers change how they work."
+        }
+      }
+    ]
+  }
+}

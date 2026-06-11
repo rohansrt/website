@@ -82,6 +82,8 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;background:rgba(245,243,239,
 .ach-org{font-size:13px;font-weight:600;margin-bottom:10px}
 .ach-title{font-size:14px;font-weight:500;color:var(--text);margin-bottom:6px}
 .ach-sub{font-size:12px;color:var(--muted);line-height:1.55}
+.ach-tag-row{display:flex;align-items:center;gap:8px;margin-top:10px;flex-wrap:nowrap}
+.ach-tag-row .ach-tag{margin-top:0;white-space:nowrap}
 .ach-tag{display:inline-block;margin-top:10px;font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.12em;padding:3px 8px;border:1px solid rgba(44,74,110,.2);color:var(--navy);border-radius:2px}
 .tic-img{width:100%;border-radius:4px;margin-top:12px;border:1px solid var(--border)}
 
@@ -98,6 +100,25 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;background:rgba(245,243,239,
 .pinned-name{font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:400;margin-bottom:6px;color:var(--text)}
 .pinned-tagline{font-size:12px;color:var(--muted);line-height:1.5;margin-bottom:14px}
 .pinned-arrow{font-size:11px;color:var(--navy);letter-spacing:.08em}
+
+/* ── HOME: Project Summary ─────────────────────────────────────────────── */
+.proj-summary-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.proj-summary-card{background:var(--surface);padding:18px 20px 16px;border:1px solid var(--border);border-radius:10px;display:flex;flex-direction:column;cursor:pointer;transition:box-shadow .2s;text-decoration:none;color:inherit;position:relative;overflow:hidden}
+.proj-summary-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background:var(--navy);transform:scaleX(0);transform-origin:left;transition:transform .3s}
+.proj-summary-card:hover{box-shadow:0 4px 20px rgba(44,74,110,.1)}
+.proj-summary-card:hover::after{transform:scaleX(1)}
+.proj-summary-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
+.proj-summary-header-text{display:flex;flex-direction:column;gap:3px}
+.proj-summary-label{font-family:'Outfit',sans-serif;font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--navy)}
+.proj-summary-count{font-family:'DM Mono',monospace;font-size:9px;color:var(--dim);letter-spacing:.08em}
+.proj-summary-deco{width:80px;height:56px;flex-shrink:0;opacity:.9}
+.proj-summary-list{display:flex;flex-direction:column;flex:1}
+.proj-summary-item{font-family:'Cormorant Garamond',serif;font-size:16px;font-weight:400;color:var(--text);padding:5px 0;display:flex;align-items:center;gap:9px}
+.proj-summary-item::before{content:'·';color:var(--navy);font-size:26px;line-height:1;flex-shrink:0;margin-top:-2px}
+.proj-summary-cta{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--navy);border:1px solid rgba(44,74,110,.35);border-radius:20px;padding:5px 14px;margin-top:14px;display:inline-flex;align-items:center;gap:5px;align-self:flex-start;transition:background .2s,color .2s,border-color .2s}
+.proj-summary-card:hover .proj-summary-cta{background:var(--navy);color:#fff;border-color:var(--navy)}
+.ach-deck-link{display:inline-flex;align-items:center;gap:4px;margin-top:0;font-family:'DM Mono',monospace;font-size:9px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;padding:4px 12px;white-space:nowrap;background:#0F2454;color:#FBFAF8;border:1.5px solid #0F2454;border-radius:20px;transition:background .2s,color .2s}
+.ach-deck-link:hover{background:transparent;color:#0F2454}
 
 /* ── ABOUT ───────────────────────────────────────────────────────────────── */
 .about-hero{display:flex;gap:36px;align-items:flex-start;margin-bottom:40px}
@@ -479,7 +500,10 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;background:rgba(245,243,239,
 .eg-card--pro .eg-title {
   font-size: clamp(15px, 1.63vw, 26px);
 }
-.eg-card--pro[data-id="jlr-1"] .eg-pro-hero {
+.eg-card--pro[data-id="jlr-1"] .eg-pro-hero,
+.eg-card--pro[data-id="jlr-2"] .eg-pro-hero,
+.eg-card--pro[data-id="jlr-3"] .eg-pro-hero,
+.eg-card--pro[data-id="jlr-4"] .eg-pro-hero {
   max-height: 50px;
   margin-top: 0;
   transform: scale(1.5);
@@ -1011,6 +1035,7 @@ footer{padding:24px 56px;border-top:1px solid var(--border);background:var(--sur
   .hero-left{padding:40px 0}
   .contact-grid,.timeline-grid{grid-template-columns:1fr;gap:40px}
   .pinned-grid{grid-template-columns:1fr}
+  .proj-summary-grid{grid-template-columns:1fr}
   footer{flex-direction:column;gap:6px;text-align:center;padding:20px}
   .proj-cards-row{grid-template-columns:1fr}
   .about-hero{flex-direction:column;align-items:center}

@@ -61,6 +61,19 @@
   var tabs = document.querySelectorAll('.proj-tab');
   var DURATION = 200;
 
+  // Activate tab from URL hash on load
+  (function() {
+    var hash = window.location.hash.replace('#', '');
+    if (hash === 'professional' || hash === 'self') {
+      tabs.forEach(function(t) { t.classList.remove('active'); });
+      document.querySelectorAll('.proj-tab-panel').forEach(function(p) { p.classList.remove('active'); });
+      var btn = document.querySelector('.proj-tab[data-tab="' + hash + '"]');
+      var panel = document.getElementById('tab-' + hash);
+      if (btn) btn.classList.add('active');
+      if (panel) panel.classList.add('active');
+    }
+  })();
+
   tabs.forEach(function(tab) {
     tab.addEventListener('click', function() {
       var target = this.dataset.tab;

@@ -70,7 +70,7 @@
         "icon": "assets/icons/projects/key-stakeholders.svg",
         "content": {
           "type": "list",
-          "items": ["UK Climate Leadership", "India GCC Leadership", "Suppliers", "Tata Ecosystem", "Academic Institutions"]
+          "items": ["UK Climate Leadership", "India GCC Leadership", "Tata Executives", "10+ Suppliers", "IISc Bengaluru & Academic Partners"]
         }
       },
       {
@@ -78,7 +78,7 @@
         "icon": "assets/icons/projects/methodology.svg",
         "content": {
           "type": "list",
-          "items": ["Business Case Development", "Ecosystem Mapping", "Talent Strategy", "Stakeholder Alignment", "Program Execution"]
+          "items": ["5-Year Strategic Roadmap", "Business Case & Budgeting", "IP & Partnership Strategy", "Program Gateway Management (5 Gates)", "Talent Pipeline Development"]
         }
       },
       {
@@ -86,7 +86,7 @@
         "icon": "assets/icons/projects/market-opportunity.svg",
         "content": {
           "type": "text-chart",
-          "text": "Built 8+ member offshore team, managed 10+ suppliers, supported 100+ requirements, secured ₹5 Cr investment, and reduced R&D costs by 60% through Indian partnerships."
+          "text": "Built 8+ member offshore team from scratch; secured ₹5 Cr UK funding; unlocked 45% dev cost saving via Tata cross-entity synergy; cut R&D cost by 60% via IISc Bengaluru partnership securing 1st All-India IP project; recruited across 7 IITs (50+ interviews) with 100% talent retention across 4 managed interns."
         }
       },
       {
