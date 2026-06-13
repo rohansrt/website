@@ -36,6 +36,7 @@
       <div class="proj-tabs">
         <button class="proj-tab active" data-tab="self">Self Projects</button>
         <button class="proj-tab" data-tab="professional">Professional Projects</button>
+        <button class="proj-tab" data-tab="skills">Skills</button>
       </div>
 
       <!-- Self Projects Panel -->
@@ -47,41 +48,42 @@
       <div class="proj-tab-panel" id="tab-professional">
         <div class="proj-cards-row"></div>
       </div><!-- /tab-professional -->
-    </div>
 
-    <div class="section">
-      <h2 class="section-title">Skills &amp; <em>Tools</em></h2>
-      <div class="skills-cols" style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:32px">
-        <div>
-          <div class="skill-cluster-name">Product &amp; Building</div>
-          <div class="skill-list">
-            <div class="skill-item">0→1 Product Thinking</div>
-            <div class="skill-item">GTM &amp; Launch Strategy</div>
-            <div class="skill-item">User Research</div>
-            <div class="skill-item">Rapid Prototyping</div>
-            <div class="skill-item">Roadmapping</div>
+      <!-- Skills Panel -->
+      <div class="proj-tab-panel" id="tab-skills">
+        <h2 class="section-title" style="margin-top:32px">Skills &amp; <em>Tools</em></h2>
+        <div class="skills-cols" style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:32px">
+          <div>
+            <div class="skill-cluster-name">Product &amp; Building</div>
+            <div class="skill-list">
+              <div class="skill-item">0→1 Product Thinking</div>
+              <div class="skill-item">GTM &amp; Launch Strategy</div>
+              <div class="skill-item">User Research</div>
+              <div class="skill-item">Rapid Prototyping</div>
+              <div class="skill-item">Roadmapping</div>
+            </div>
+          </div>
+          <div>
+            <div class="skill-cluster-name">Vibe Coding &amp; AI</div>
+            <div class="skill-list">
+              <div class="skill-item">Cursor · Lovable · Bolt</div>
+              <div class="skill-item">Claude · GPT · Gemini</div>
+              <div class="skill-item">Vercel · Supabase · N8N</div>
+              <div class="skill-item">GenAI App Development</div>
+              <div class="skill-item">Prompt Engineering</div>
+            </div>
+          </div>
+          <div>
+            <div class="skill-cluster-name">Design &amp; Ops</div>
+            <div class="skill-list">
+              <div class="skill-item">Figma · Framer</div>
+              <div class="skill-item">Notion · Linear</div>
+              <div class="skill-item">Python · SQL</div>
+              <div class="skill-item">Agile / Scrum</div>
+            </div>
           </div>
         </div>
-        <div>
-          <div class="skill-cluster-name">Vibe Coding &amp; AI</div>
-          <div class="skill-list">
-            <div class="skill-item">Cursor · Lovable · Bolt</div>
-            <div class="skill-item">Claude · GPT · Gemini</div>
-            <div class="skill-item">Vercel · Supabase · N8N</div>
-            <div class="skill-item">GenAI App Development</div>
-            <div class="skill-item">Prompt Engineering</div>
-          </div>
-        </div>
-        <div>
-          <div class="skill-cluster-name">Design &amp; Ops</div>
-          <div class="skill-list">
-            <div class="skill-item">Figma · Framer</div>
-            <div class="skill-item">Notion · Linear</div>
-            <div class="skill-item">Python · SQL</div>
-            <div class="skill-item">Agile / Scrum</div>
-          </div>
-        </div>
-      </div>
+      </div><!-- /tab-skills -->
     </div>
   </div>
 </div>
@@ -96,7 +98,7 @@
   // Activate tab from URL hash on load
   (function() {
     var hash = window.location.hash.replace('#', '');
-    if (hash === 'professional' || hash === 'self') {
+    if (hash === 'professional' || hash === 'self' || hash === 'skills') {
       tabs.forEach(function(t) { t.classList.remove('active'); });
       document.querySelectorAll('.proj-tab-panel').forEach(function(p) { p.classList.remove('active'); });
       var btn = document.querySelector('.proj-tab[data-tab="' + hash + '"]');
