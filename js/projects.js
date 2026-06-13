@@ -82,14 +82,17 @@
         '<div class="eg-strip-sep"></div>';
     }).join('');
 
+    var hasMvp = data.mvpLink && data.mvpLink !== '#';
+    var mvpBtnHTML = hasMvp
+      ? '<a href="' + esc(data.mvpLink) + '" target="_blank" rel="noopener" class="eg-mvp-btn"><span class="eg-mvp-arrow">↗</span> VIEW MVP</a>'
+      : '<button class="eg-mvp-btn eg-mvp-btn--no-link"><span class="eg-mvp-arrow">↗</span> VIEW MVP</button>';
+
     var el = document.createElement('div');
     el.className = 'eg-card';
     el.innerHTML =
       '<div class="eg-row1">' +
         '<h1 class="eg-title' + (data.titleSmall ? ' eg-title--sm' : '') + '">' + esc(data.title) + '</h1>' +
-        '<a href="' + esc(data.mvpLink) + '" target="_blank" rel="noopener" class="eg-mvp-btn">' +
-          '<span class="eg-mvp-arrow">↗</span> VIEW MVP' +
-        '</a>' +
+        mvpBtnHTML +
       '</div>' +
       '<div class="eg-divider"></div>' +
       '<div class="eg-row3">' +
@@ -317,6 +320,13 @@
       e.stopPropagation();
       openModal();
     });
+    var mvpNoLink = cardEl.querySelector('.eg-mvp-btn--no-link');
+    if (mvpNoLink) {
+      mvpNoLink.addEventListener('click', function (e) {
+        e.stopPropagation();
+        openModal();
+      });
+    }
     modalEl.querySelector('.egm-close-btn').addEventListener('click', closeModal);
     modalEl.querySelector('.egm-back-btn').addEventListener('click', closeModal);
     modalEl.addEventListener('click', function (e) {
