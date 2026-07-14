@@ -1,0 +1,105 @@
+{
+  "id": "playos",
+  "title": "PlayOS",
+  "tagline": "What if sports\ninfrastructure\nnever failed?",
+  "category": "SPORTS INFRA. AS A SERVICE.",
+  "heroImage": "assets/title icons/PlayOS Icon.png",
+  "mvpLink": "assets/pdf/PlayOS 1st Pitch.pdf",
+  "mvpLabel": "VIEW PPT",
+  "card": {
+    "strips": [
+      { "icon": "assets/icons/projects/customer-need.svg", "label": "AUDIT" },
+      { "icon": "assets/icons/projects/trust-safety.svg", "label": "MAINTENANCE" },
+      { "icon": "assets/icons/projects/payments.svg", "label": "SUPPLY" }
+    ]
+  },
+  "detail": {
+    "row1": [
+      {
+        "title": "CUSTOMER NEED",
+        "icon": "assets/icons/projects/customer-need.svg",
+        "content": {
+          "type": "text",
+          "text": "Sports infrastructure fails not because equipment ages, but because nobody owns its lifecycle. Institutions face complaints, emergency purchases, and under-utilized assets."
+        }
+      },
+      {
+        "title": "TARGET USERS",
+        "icon": "assets/icons/projects/target-users.svg",
+        "content": {
+          "type": "groups",
+          "groups": [
+            { "title": "Educational", "items": ["Schools & Colleges", "Corporate Campuses"] },
+            { "title": "Community", "items": ["Sports Facilities & Clubs", "Gated Communities"] }
+          ]
+        }
+      },
+      {
+        "title": "VALUE PROPOSITION",
+        "icon": "assets/icons/projects/value-proposition.svg",
+        "content": {
+          "type": "groups",
+          "groups": [
+            { "title": "For Institutions", "items": ["Zero asset downtime", "Lower cost of ownership", "Data-driven decisions"] },
+            { "title": "For Vendors", "items": ["Steady demand pipeline", "Certified partnerships", "Recurring revenue"] }
+          ]
+        }
+      },
+      {
+        "title": "HOW IT WORKS",
+        "icon": "assets/icons/projects/how-it-works.svg",
+        "noBorder": true,
+        "content": {
+          "type": "flow",
+          "steps": [
+            { "icon": "assets/icons/projects/customer-need.svg", "label": "Asset Audit & Inventory" },
+            { "icon": "assets/icons/projects/trust-safety.svg", "label": "Track & Maintain" },
+            { "icon": "assets/icons/projects/payments.svg", "label": "Supply & Restock" },
+            { "icon": "assets/icons/projects/market-opportunity.svg", "label": "Insights & Optimization" }
+          ]
+        }
+      }
+    ],
+    "row2": {
+      "title": "MVP FEATURES",
+      "icon": "assets/icons/projects/mvp-features.svg",
+      "pills": ["Asset Audit & QR Tagging", "Inventory Dashboard", "Maintenance Scheduling", "Complaint App", "Vendor Network", "Analytics & Reports"]
+    },
+    "row3": [
+      {
+        "title": "KEY STAKEHOLDERS",
+        "icon": "assets/icons/projects/key-stakeholders.svg",
+        "content": {
+          "type": "list",
+          "items": ["Students & Employees", "Sports Heads / PE / HR", "Institution Management", "Vendors & Partners"]
+        }
+      },
+      {
+        "title": "MY ROLE",
+        "icon": "assets/icons/projects/my-role.svg",
+        "content": {
+          "type": "list",
+          "items": ["Co-Founder", "Product Strategy", "Business Model Design", "GTM & Partnerships", "Operations"]
+        }
+      },
+      {
+        "title": "MARKET OPPORTUNITY",
+        "icon": "assets/icons/projects/market-opportunity.svg",
+        "content": {
+          "type": "text-chart",
+          "text": "A ₹7,000+ Cr institutional sports lifecycle market in India, with zero end-to-end lifecycle management providers today."
+        }
+      },
+      {
+        "title": "FOUNDER NOTE",
+        "icon": "assets/icons/projects/founder-note.svg",
+        "noBorder": true,
+        "isFounder": true,
+        "content": {
+          "type": "quote",
+          "text": "We're not just selling equipment. We're building the operating system for institutional sports infrastructure—so institutions can focus on play, we'll handle the rest."
+        }
+      }
+    ]
+  }
+}

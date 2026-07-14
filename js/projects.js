@@ -83,9 +83,10 @@
     }).join('');
 
     var hasMvp = data.mvpLink && data.mvpLink !== '#';
+    var mvpLabel = data.mvpLabel || 'VIEW MVP';
     var mvpBtnHTML = hasMvp
-      ? '<a href="' + esc(data.mvpLink) + '" target="_blank" rel="noopener" class="eg-mvp-btn"><span class="eg-mvp-arrow">↗</span> VIEW MVP</a>'
-      : '<button class="eg-mvp-btn eg-mvp-btn--no-link"><span class="eg-mvp-arrow">↗</span> VIEW MVP</button>';
+      ? '<a href="' + esc(data.mvpLink) + '" target="_blank" rel="noopener" class="eg-mvp-btn"><span class="eg-mvp-arrow">↗</span> ' + esc(mvpLabel) + '</a>'
+      : '<button class="eg-mvp-btn eg-mvp-btn--no-link"><span class="eg-mvp-arrow">↗</span> ' + esc(mvpLabel) + '</button>';
 
     var el = document.createElement('div');
     el.className = 'eg-card';
@@ -163,7 +164,7 @@
           '<div class="egm-header-right">' +
             (data.mvpLink ? '<a href="' + esc(data.mvpLink) + '" target="_blank" rel="noopener" class="egm-mvp-btn-header">' +
               '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>' +
-              'VIEW MVP' +
+              esc(data.mvpLabel || 'VIEW MVP') +
             '</a>' : '') +
             '<img src="' + esc(data.heroImage) + '" alt="' + esc(data.title) + ' illustration" class="egm-hero-img">' +
           '</div>' +
