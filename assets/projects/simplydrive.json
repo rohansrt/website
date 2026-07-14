@@ -1,0 +1,99 @@
+{
+  "id": "simplydrive",
+  "title": "SimplyDrive",
+  "tagline": "Own your car.\nNot the lock-in.",
+  "category": "Vehicle equity, credits, ownership.",
+  "heroImage": "assets/title icons/SimplyDrive Icon.png",
+  "mvpLink": "assets/pdf/Simply Drive Pitch.pdf",
+  "mvpLabel": "VIEW PPT",
+  "card": {
+    "strips": [
+      { "icon": "assets/icons/projects/payments.svg", "label": "FLEXIBLE" },
+      { "icon": "assets/icons/projects/target-users.svg", "label": "PORTABLE" },
+      { "icon": "assets/icons/projects/market-opportunity.svg", "label": "EQUITY" }
+    ]
+  },
+  "detail": {
+    "row1": [
+      {
+        "title": "CUSTOMER NEED",
+        "icon": "assets/icons/projects/customer-need.svg",
+        "content": {
+          "type": "text",
+          "text": "Young professionals need vehicles that adapt to frequent life changes without long-term lock-ins, high depreciation losses, or complex transfers."
+        }
+      },
+      {
+        "title": "TARGET USERS",
+        "icon": "assets/icons/projects/target-users.svg",
+        "content": {
+          "type": "list",
+          "items": ["Young Professionals (24-35)", "First-time Car & Bike Owners", "Frequent City Movers", "Salary Account Holders"]
+        }
+      },
+      {
+        "title": "VALUE PROPOSITION",
+        "icon": "assets/icons/projects/value-proposition.svg",
+        "content": {
+          "type": "list",
+          "items": ["Flexible ownership that adapts", "Equity on every payment", "Move, swap, pause with ease", "Lower total cost of ownership", "Zero lock-in, full control"]
+        }
+      },
+      {
+        "title": "HOW IT WORKS",
+        "icon": "assets/icons/projects/how-it-works.svg",
+        "noBorder": true,
+        "content": {
+          "type": "flow",
+          "steps": [
+            { "icon": "assets/icons/projects/customer-need.svg", "label": "Choose Vehicle & Get Approved" },
+            { "icon": "assets/icons/projects/trust-safety.svg", "label": "Drive & Build Equity" },
+            { "icon": "assets/icons/projects/payments.svg", "label": "Move / Swap / Pause / Upgrade" },
+            { "icon": "assets/icons/projects/market-opportunity.svg", "label": "Buy Out or Keep Flexing" }
+          ]
+        }
+      }
+    ],
+    "row2": {
+      "title": "MVP FEATURES",
+      "icon": "assets/icons/projects/mvp-features.svg",
+      "pills": ["Flexible Plans", "Equity Dashboard", "City Transfer", "Vehicle Swap", "Pause & Resume", "Buy Out", "In-App Support"]
+    },
+    "row3": [
+      {
+        "title": "KEY STAKEHOLDERS",
+        "icon": "assets/icons/projects/key-stakeholders.svg",
+        "content": {
+          "type": "list",
+          "items": ["Customers", "Banks & NBFCs", "OEMs", "Dealers", "Insurance Partners", "Certified Used Marketplace"]
+        }
+      },
+      {
+        "title": "MY ROLE",
+        "icon": "assets/icons/projects/my-role.svg",
+        "content": {
+          "type": "list",
+          "items": ["Co-Founder", "Product Strategy", "Business Model & GTM", "Partnerships & Operations", "Fundraising"]
+        }
+      },
+      {
+        "title": "MARKET OPPORTUNITY",
+        "icon": "assets/icons/projects/market-opportunity.svg",
+        "content": {
+          "type": "text-chart",
+          "text": "A $60B+ mobility finance market in India. Rising young workforce, high financing penetration, and a shift toward flexible lifestyles create a massive opportunity."
+        }
+      },
+      {
+        "title": "FOUNDER NOTE",
+        "icon": "assets/icons/projects/founder-note.svg",
+        "noBorder": true,
+        "isFounder": true,
+        "content": {
+          "type": "quote",
+          "text": "We're building the operating system for vehicle ownership. Not just financing vehicles, but empowering people with ownership that moves with their life."
+        }
+      }
+    ]
+  }
+}
